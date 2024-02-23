@@ -16,10 +16,6 @@
 
 ###
 
-<img align="right" height="200" src="https://i.gifer.com/VwDf.gif"  />
-
-###
-
 <h3 align="left">Tại đây lưu trữ liên quan đến lập trình Android :<br>📚 Các bài tập tự luyện.<br>📚 Các bài tập thực hành.<br>📚 Các dự án cho kỳ thi học phần.</h3>
 
 ###
