@@ -10,15 +10,35 @@
   <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
 </div>
 
-###
-
 <h2 align="center">Lập trình Android<br>Android Programming</h2>
 
 ###
 
 <h3 align="left">Tại đây lưu trữ liên quan đến lập trình Android :<br>📚 Các bài tập tự luyện.<br>📚 Các bài tập thực hành.<br>📚 Các dự án cho kỳ thi học phần.</h3>
 
-###
+<h3 align="left">BÀI TẬP THỰC HÀNH</h3>
+
+<ul>
+  <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex1_Hello/app/src/main">Ex1_Hello</a>
+  </li>
+    <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex2_LinearLayout/app/src/main">Ex2_LinearLayout</a>
+  </li>
+    <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex3_SimpleSumApp/app/src/main">Ex3_SimpleSumApp</a>
+  </li>
+      <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex4_AddSubMulDiv_Onclick/app/src/main">Ex4_AddSubMulDiv_Onclick</a>
+  </li>
+      <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Anynomous/app/src/main">Ex5_AddSubMulDiv_Anynomous</a>
+  </li>
+      <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Var/app/src/main">Ex5_AddSubMulDiv_Var</a>
+  </li>
+</ul>
+
 
 <br clear="both">
 
@@ -29,8 +49,6 @@
 ###
 
 <h3 align="center">Contact me at the social networks below 👇</h3>
-
-###
 
 <div align="center">
   <a href="https://www.facebook.com/bocutiee" target="_blank">
