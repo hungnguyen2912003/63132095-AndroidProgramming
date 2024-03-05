@@ -1,4 +1,4 @@
-package th.part2.ex6_addsubmuldiv_var;
+package th.part2.ex5_addsubmuldiv_var;
 
 import org.junit.Test;
 

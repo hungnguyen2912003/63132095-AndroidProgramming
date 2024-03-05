@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex6_AddSubMulDiv_Var"
+rootProject.name = "Ex5_AddSubMulDiv_Var"
 include(":app")

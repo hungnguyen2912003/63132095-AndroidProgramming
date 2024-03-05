@@ -1,4 +1,4 @@
-package th.part2.ex6_addsubmuldiv_var;
+package th.part2.ex5_addsubmuldiv_var;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("th.part2.ex6_addsubmuldiv_var", appContext.getPackageName());
+        assertEquals("th.part2.ex5_addsubmuldiv_var", appContext.getPackageName());
     }
 }

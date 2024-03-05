@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "th.part2.ex6_addsubmuldiv_var"
+    namespace = "th.part2.ex5_addsubmuldiv_var"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "th.part2.ex6_addsubmuldiv_var"
+        applicationId = "th.part2.ex5_addsubmuldiv_var"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
