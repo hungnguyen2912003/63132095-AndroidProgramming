@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         nutCong.setOnClickListener(boLangNgheCong);
 
+
         nutTru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
