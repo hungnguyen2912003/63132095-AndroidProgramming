@@ -34,6 +34,9 @@
       <li>
     <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Anynomous/app/src/main">Ex5_AddSubMulDiv_Anynomous</a>
   </li>
+  <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Var/app/src/main">Ex5_AddSubMulDiv_Var</a>
+  </li>
       <li>
     <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex_6_ListViewDemo/app/src/main">Ex_6_ListViewDemo</a>
   </li>
