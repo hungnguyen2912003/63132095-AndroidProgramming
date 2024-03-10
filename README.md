@@ -16,7 +16,7 @@
 
 <h3 align="left">Tại đây lưu trữ liên quan đến lập trình Android :<br>📚 Các bài tập tự luyện.<br>📚 Các bài tập thực hành.<br>📚 Các dự án cho kỳ thi học phần.</h3>
 
-<h3 align="left">BÀI TẬP THỰC HÀNH</h3>
+<h3 align="left">TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH</h3>
 
 <ul>
   <li>
@@ -35,7 +35,10 @@
     <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Anynomous/app/src/main">Ex5_AddSubMulDiv_Anynomous</a>
   </li>
       <li>
-    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Var/app/src/main">Ex5_AddSubMulDiv_Var</a>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex_6_ListViewDemo/app/src/main">Ex_6_ListViewDemo</a>
+  </li>
+  <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex_6Cong_ListViewThemXoaSua/app/src/main">Ex_6Cong_ListViewThemXoaSua</a>
   </li>
 </ul>
 
