@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     ListView lvBaiHat;
     ArrayList<String> dsbh = new ArrayList<>();
     ArrayAdapter<String> adapterBH;
-
+    //Biến dành cho chức năng sửa
     int PosItem = -1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Bạn đã lựa chọn: " + selectItem, Toast.LENGTH_SHORT).show();
                 edtSong.setText(selectItem);
                 edtPos.setText(String.valueOf(position));
+
+
                 edtPos.setEnabled(true);
                 edtPos.setVisibility(View.VISIBLE);
                 ViTri.setVisibility(View.VISIBLE);
@@ -97,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String upd_Name = edtSong.getText().toString();
+
                 int upd_Pos = Integer.parseInt(edtPos.getText().toString());
                 if (PosItem != -1){
                     if(upd_Pos >= 0 && upd_Pos < dsbh.size()){
