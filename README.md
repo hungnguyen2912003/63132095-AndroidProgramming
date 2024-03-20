@@ -49,7 +49,7 @@
 
 <ul>
   <li>
-    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Calculator_Random/app/src/main">Phép Tính Đơn Giản Với 2 Số Ngẫu Nhiên</a>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Calculator_Random/app/src/main">Phép Tính Đơn Giản Với 2 Số Được Tạo Ngẫu Nhiên</a>
   </li>
     <li>
     <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Sum_Quiz/app/src/main">Sum Quiz (Trắc Nghiệm Phép Tính Cộng)</a>
