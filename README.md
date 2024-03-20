@@ -45,6 +45,31 @@
   </li>
 </ul>
 
+<h3 align="left">TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN</h3>
+
+<ul>
+  <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Calculator_Random/app/src/main">Phép Tính Đơn Giản Với 2 Số Ngẫu Nhiên</a>
+  </li>
+    <li>
+    <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Sum_Quiz/app/src/main">Sum Quiz (Trắc Nghiệm Phép Tính Cộng)</a>
+  </li>
+  <ul>
+    <h3 align="left">TỰ LUYỆN ĐỀ KIỂM TRA GIỮA KỲ 2020</h3>
+    <li>
+      <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/GK_2020/BaiKT1/app/src/main">BaiKT1_Login</a>
+    </li>
+        <li>
+      <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/GK_2020/BaiKT2/app/src/main">BaiKT2_Calculate_Tip</a>
+    </li>
+        <li>
+      <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/GK_2020/BaiKT3/app/src/main">BaiKT3_ListView</a>
+    </li>
+        <li>
+      <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/GK_2020/BaiKT4/app/src/main">BaiKT4_CustomListView</a>
+    </li>
+  </ul>
+</ul>
 
 <br clear="both">
 
