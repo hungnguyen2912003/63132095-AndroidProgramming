@@ -16,7 +16,7 @@
 
 <h3 align="left">Tại đây lưu trữ liên quan đến lập trình Android :<br>📚 Các bài tập tự luyện.<br>📚 Các bài tập thực hành.<br>📚 Các dự án cho kỳ thi học phần.</h3>
 
-<h3 align="left">TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH</h3>
+<h3 align="left">🙀TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH🙀</h3>
 
 <ul>
   <li>
@@ -45,7 +45,7 @@
   </li>
 </ul>
 
-<h3 align="left">TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN</h3>
+<h3 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN😽</h3>
 
 <ul>
   <li>
