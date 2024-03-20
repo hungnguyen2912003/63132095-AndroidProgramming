@@ -55,7 +55,7 @@
     <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Sum_Quiz/app/src/main">Sum Quiz (Trắc Nghiệm Phép Tính Cộng)</a>
   </li>
   <li>
-    <h3 align="left">TỰ LUYỆN ĐỀ KIỂM TRA GIỮA KỲ 2020</h3>
+    <h5 align="left">TỰ LUYỆN ĐỀ KIỂM TRA GIỮA KỲ 2020</h5>
   </li>
   <ul>
     <li>
