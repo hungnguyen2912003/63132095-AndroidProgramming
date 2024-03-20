@@ -54,8 +54,10 @@
     <li>
     <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/Sum_Quiz/app/src/main">Sum Quiz (Trắc Nghiệm Phép Tính Cộng)</a>
   </li>
-  <ul>
+  <li>
     <h3 align="left">TỰ LUYỆN ĐỀ KIỂM TRA GIỮA KỲ 2020</h3>
+  </li>
+  <ul>
     <li>
       <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Practice/GK_2020/BaiKT1/app/src/main">BaiKT1_Login</a>
     </li>
