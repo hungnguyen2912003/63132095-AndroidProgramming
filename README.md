@@ -73,13 +73,6 @@
   </ul>
 </ul>
 
-<br clear="both">
-
-<div align="center">
-  <img height="350" src="https://i.makeagif.com/media/8-29-2016/NaroBk.gif"  />
-</div>
-
-###
 
   <a href="http://www.youtube.com/@HungNguyen-ye8fe" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
