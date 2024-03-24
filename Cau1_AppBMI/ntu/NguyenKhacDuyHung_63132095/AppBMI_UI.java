@@ -5,8 +5,6 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
 
 public class AppBMI_UI extends JFrame {
 
@@ -34,16 +32,11 @@ public class AppBMI_UI extends JFrame {
 	 */
 	public AppBMI_UI() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1000, 600);
+		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
-		contentPane.setLayout(null);
-		
-		JLabel bgImage = new JLabel("");
-		bgImage.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/background2.png")));
-		bgImage.setBounds(0, 0, 1000, 600);
-		contentPane.add(bgImage);
 	}
+
 }
