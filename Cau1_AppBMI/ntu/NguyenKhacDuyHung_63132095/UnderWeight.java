@@ -112,7 +112,9 @@ public class UnderWeight extends JFrame {
 		lblNewLabel_3_3.setBounds(513, 417, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 		
-
+		JLabel lblNewLabel_4 = new JLabel("");
+		lblNewLabel_4.setBounds(859, 112, 309, 142);
+		contentPane.add(lblNewLabel_4);
 		
 		JButton btnReset = new JButton("RESET");
 		btnReset.setForeground(new Color(0, 255, 64));
