@@ -6,9 +6,13 @@ import java.awt.EventQueue;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
 
@@ -16,28 +20,24 @@ public class GoodHealth_UI extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-
+    private float bmi;
+    private int height;
+    private float weight;
+    private int age;
+    private String gioitinh;
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					GoodHealth_UI frame = new GoodHealth_UI();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
-	/**
-	 * Create the frame.
-	 */
-	public GoodHealth_UI() {
-		setTitle("Ứng dụng kiểm tra chỉ số BMI");
+	
+    public GoodHealth_UI(float bmi, int height, float weight, int age, String gioitinh) {
+        this.bmi = bmi;
+        this.height = height;
+        this.weight = weight;
+        this.age = age;
+        this.gioitinh = gioitinh;
+        
+        setTitle("Ứng dụng kiểm tra chỉ số BMI");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1280, 720);
 		contentPane = new JPanel();
@@ -50,12 +50,13 @@ public class GoodHealth_UI extends JFrame {
 		lblNewLabel_3.setBounds(180, 415, 89, 31);
 		contentPane.add(lblNewLabel_3);
 		
-		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setForeground(new Color(77, 139, 50));
-		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
-		lblNewLabel_2.setBounds(306, 186, 169, 92);
-		contentPane.add(lblNewLabel_2);
+		JLabel lblShowBMI = new JLabel("");
+		lblShowBMI.setForeground(new Color(77, 139, 50));
+		lblShowBMI.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowBMI.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
+		lblShowBMI.setBounds(306, 186, 169, 92);
+		contentPane.add(lblShowBMI);
+		
 		
 		JLabel lblNewLabel_1 = new JLabel("Khỏe");
 		lblNewLabel_1.setForeground(new Color(255, 255, 255));
@@ -91,37 +92,90 @@ public class GoodHealth_UI extends JFrame {
 		lblNewLabel_3_3.setBounds(513, 415, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 				
-				JLabel lblNewLabel_7 = new JLabel("RESET");
-				lblNewLabel_7.setHorizontalAlignment(SwingConstants.CENTER);
-				lblNewLabel_7.setForeground(new Color(255, 255, 255));
-				lblNewLabel_7.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
-				lblNewLabel_7.setBounds(206, 517, 146, 25);
-				contentPane.add(lblNewLabel_7);
-				
-				JLabel lblNewLabel_7_1 = new JLabel("EXIT");
-				lblNewLabel_7_1.setHorizontalAlignment(SwingConstants.CENTER);
-				lblNewLabel_7_1.setForeground(Color.WHITE);
-				lblNewLabel_7_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
-				lblNewLabel_7_1.setBounds(435, 517, 146, 25);
-				contentPane.add(lblNewLabel_7_1);
-				
-				JButton btnNewButton = new JButton("");
-				btnNewButton.setIcon(new ImageIcon(GoodHealth_UI.class.getResource("/images/btn.png")));
-				btnNewButton.setBounds(180, 502, 193, 55);
-				contentPane.add(btnNewButton);
+		JButton btnReset = new JButton("RESET");
+		btnReset.setForeground(new Color(0, 255, 64));
+		btnReset.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		btnReset.setBounds(180, 502, 193, 55);
+		contentPane.add(btnReset);
 						
-						JButton btnNewButton_1 = new JButton("");
-						btnNewButton_1.setIcon(new ImageIcon(GoodHealth_UI.class.getResource("/images/btn.png")));
-						btnNewButton_1.setBounds(409, 502, 193, 55);
-						contentPane.add(btnNewButton_1);
+		JButton btnExit = new JButton("EXIT");
+		btnExit.setForeground(new Color(255, 128, 128));
+		btnExit.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		btnExit.setBounds(409, 502, 193, 55);
+		contentPane.add(btnExit);
 										
-										JLabel lblNewLabel_4 = new JLabel("");
-										lblNewLabel_4.setBounds(853, 160, 309, 118);
-										contentPane.add(lblNewLabel_4);
-										
-												JLabel bgImage = new JLabel("");
-												bgImage.setIcon(new ImageIcon(GoodHealth_UI.class.getResource("/images/GoodHealth_UI.png")));
-												bgImage.setBounds(0, 0, 1266, 683);
-												contentPane.add(bgImage);
-	}
+		JLabel lblNewLabel_4 = new JLabel("<html>Sức khỏe của bạn rất tốt.<br>Hãy duy trì như thế nhé!</html>");
+		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_4.setFont(new Font("Baloo 2", Font.BOLD, 25));
+		lblNewLabel_4.setBounds(853, 160, 309, 118);
+		contentPane.add(lblNewLabel_4);
+
+		
+		JLabel lblShowWeight = new JLabel("");
+		lblShowWeight.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowWeight.setForeground(new Color(77, 139, 50));
+		lblShowWeight.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowWeight.setBounds(165, 354, 119, 62);
+		contentPane.add(lblShowWeight);
+		
+		JLabel lblShowHeight = new JLabel("");
+		lblShowHeight.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowHeight.setForeground(new Color(77, 139, 50));
+		lblShowHeight.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowHeight.setBounds(300, 354, 119, 62);
+		contentPane.add(lblShowHeight);
+		
+		JLabel lblShowAge = new JLabel("");
+		lblShowAge.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowAge.setForeground(new Color(77, 139, 50));
+		lblShowAge.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowAge.setBounds(415, 354, 89, 62);
+		contentPane.add(lblShowAge);
+		
+		JLabel lblShowGender = new JLabel("");
+		lblShowGender.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowGender.setForeground(new Color(77, 139, 50));
+		lblShowGender.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowGender.setBounds(513, 354, 89, 62);
+		contentPane.add(lblShowGender);
+		
+		JLabel bgImage = new JLabel("");
+		bgImage.setIcon(new ImageIcon(GoodHealth_UI.class.getResource("/images/GoodHealth_UI.png")));
+		bgImage.setBounds(0, 0, 1266, 683);
+		contentPane.add(bgImage);
+		
+		
+		
+		//Làm tròn 1 chữ số thập phân
+		lblShowBMI.setText(String.valueOf(Math.round(bmi * 10) / 10.0f));
+        lblShowHeight.setText(String.valueOf(height) + "cm");
+        lblShowWeight.setText(String.valueOf(weight) + "kg");
+        lblShowAge.setText(String.valueOf(age));
+        lblShowGender.setText(gioitinh);
+        
+        
+        btnReset.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				setVisible(false);
+				AppBMI_UI appBMI_UI = new AppBMI_UI();
+				appBMI_UI.setVisible(true);
+			}
+		});
+        
+        btnExit.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				int thoat = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn thoát chương trình", "Thông báo", JOptionPane.YES_NO_OPTION);
+				if(thoat == JOptionPane.YES_OPTION) {
+					System.exit(0);
+				}
+			}
+		});
+    }
+
 }

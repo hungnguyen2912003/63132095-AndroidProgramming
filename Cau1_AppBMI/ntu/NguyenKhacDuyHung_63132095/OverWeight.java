@@ -16,6 +16,7 @@ public class OverWeight extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	
 
 	/**
 	 * Launch the application.
@@ -57,12 +58,12 @@ public class OverWeight extends JFrame {
 		lblNewLabel_3.setBounds(183, 412, 89, 31);
 		contentPane.add(lblNewLabel_3);
 		
-		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2.setForeground(new Color(77, 139, 50));
-		lblNewLabel_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
-		lblNewLabel_2.setBounds(309, 183, 169, 92);
-		contentPane.add(lblNewLabel_2);
+		JLabel lblShowBMI = new JLabel("");
+		lblShowBMI.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowBMI.setForeground(new Color(77, 139, 50));
+		lblShowBMI.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
+		lblShowBMI.setBounds(309, 183, 169, 92);
+		contentPane.add(lblShowBMI);
 		
 		JLabel lblNewLabel_1 = new JLabel("Thừa cân");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -91,38 +92,34 @@ public class OverWeight extends JFrame {
 		lblNewLabel_3_3.setBounds(516, 412, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 		
-		JLabel lblNewLabel_7 = new JLabel("RESET");
-		lblNewLabel_7.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_7.setForeground(Color.WHITE);
-		lblNewLabel_7.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
-		lblNewLabel_7.setBounds(209, 514, 146, 25);
-		contentPane.add(lblNewLabel_7);
-		
-		JLabel lblNewLabel_7_1 = new JLabel("EXIT");
-		lblNewLabel_7_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_7_1.setForeground(Color.WHITE);
-		lblNewLabel_7_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
-		lblNewLabel_7_1.setBounds(438, 514, 146, 25);
-		contentPane.add(lblNewLabel_7_1);
-		
-		JButton btnNewButton = new JButton("");
-		btnNewButton.setIcon(new ImageIcon(OverWeight.class.getResource("/images/btn.png")));
-		btnNewButton.setBounds(183, 499, 193, 55);
-		contentPane.add(btnNewButton);
-		
-		JButton btnNewButton_1 = new JButton("");
-		btnNewButton_1.setIcon(new ImageIcon(OverWeight.class.getResource("/images/btn.png")));
-		btnNewButton_1.setBounds(412, 499, 193, 55);
-		contentPane.add(btnNewButton_1);
-		
 		JLabel lblNewLabel_4 = new JLabel("");
 		lblNewLabel_4.setBounds(859, 112, 309, 142);
 		contentPane.add(lblNewLabel_4);
+		
+		JButton btnReset = new JButton("RESET");
+		btnReset.setForeground(new Color(0, 255, 64));
+		btnReset.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		btnReset.setBounds(183, 484, 193, 55);
+		contentPane.add(btnReset);
+		
+		JButton btnExit = new JButton("EXIT");
+		btnExit.setForeground(new Color(255, 128, 128));
+		btnExit.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		btnExit.setBounds(412, 484, 193, 55);
+		contentPane.add(btnExit);
 		
 		JLabel bgImage = new JLabel("");
 		bgImage.setIcon(new ImageIcon(OverWeight.class.getResource("/images/ThuaCan.png")));
 		bgImage.setBounds(0, 0, 1266, 683);
 		contentPane.add(bgImage);
+		
+        AppBMI_UI appBMI_UI = new AppBMI_UI();
+        
+        // Gọi phương thức TinhToanBMI() để nhận giá trị BMI
+        float bmi = appBMI_UI.TinhToanBMI();
+        
+        // Cập nhật giá trị của lblShowBMI với giá trị BMI
+        lblShowBMI.setText(String.valueOf(bmi));
 	}
 
 }
