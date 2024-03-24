@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 import java.awt.Font;
+import java.awt.Window;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.concurrent.CountDownLatch;
@@ -145,10 +146,10 @@ public class AppBMI_UI extends JFrame {
 		contentPane.add(lblNewLabel_6);
 		
 		sliderHeight = new JSlider(JSlider.HORIZONTAL, 100, 250, 150);
-		sliderHeight.setBounds(284, 517, 223, 46);
-		sliderHeight.setMinorTickSpacing(5);
+		sliderHeight.setBounds(284, 510, 223, 46);
+		sliderHeight.setMinorTickSpacing(1);
 		sliderHeight.setMajorTickSpacing(25);
-		sliderHeight.setPaintTicks(true);
+
 		sliderHeight.setPaintLabels(true);
 		contentPane.add(sliderHeight);
 		
@@ -190,7 +191,7 @@ public class AppBMI_UI extends JFrame {
 		txtheight.setEditable(false);
 		
 		txtWeight = new JTextField();
-		txtWeight.setText("50.0");
+		txtWeight.setText("50");
 		txtWeight.setHorizontalAlignment(SwingConstants.CENTER);
 		txtWeight.setForeground(new Color(79, 89, 98));
 		txtWeight.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
@@ -296,65 +297,58 @@ public class AppBMI_UI extends JFrame {
 		
 		//Xử lý nút Tính toán
 		btnSubmit.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				String strWeight = txtWeight.getText().toString();
-				String strHeight = txtheight.getText().toString();
-				String strAge = txtAge.getText().toString();
-				
-				try {
-					Float weight = Float.parseFloat(strWeight);
-
-				} catch (Exception e2) {
-					JOptionPane.showMessageDialog(null, "Định dạng số cân nặng không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
-					txtWeight.requestFocus();
-					txtWeight.setText("");
-				}
-				
-				try {
-					Float height = Float.parseFloat(strHeight);
-
-				} catch (Exception e2) {
-					JOptionPane.showMessageDialog(null, "Định dạng số chiều cao không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
-					txtheight.requestFocus();
-					txtheight.setText("");
-				}
-				
-				try {
-					int age = Integer.parseInt(strAge);
-
-				} catch (Exception e2) {
-					JOptionPane.showMessageDialog(null, "Định dạng số tuổi không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
-					txtAge.requestFocus();
-					txtAge.setText("");
-				}
-				
-				if(!tglbtnNam.isSelected() || !tglbtnNam.isSelected()) {
-					JOptionPane.showMessageDialog(null, "Bạn chưa chọn giới tính", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
-				}
-				
-				Float weight = Float.parseFloat(strWeight);
-				Float height = Float.parseFloat(strHeight);
-				int age = Integer.parseInt(strWeight);
-
-				float bmi =weight/(float)Math.pow(height,2);
-				
-	            if (bmi < 18.5) {
-	            	
-	            }	
-	            else if (bmi >= 18.5 && bmi <= 25) {
-	            	
-	            }
-	            else if (bmi > 25 && bmi < 30) {
-	            	
-	            }
-	            if (bmi >= 30) {
-	            	
-	            }
-
-			}
+		    
+		    @Override
+		    public void actionPerformed(ActionEvent e) {
+		        // TODO Auto-generated method stub
+		        String strWeight = txtWeight.getText().toString();
+		        String strHeight = txtheight.getText().toString();
+		        String strAge = txtAge.getText().toString();
+		        
+		        try {
+		            int age = Integer.parseInt(strAge);
+		        } catch (NumberFormatException e2) {
+		            JOptionPane.showMessageDialog(null, "Định dạng số tuổi không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+		            txtAge.requestFocus();
+		            txtAge.setText("");
+		            return;
+		        }
+		        
+		        try {
+		            Float weight = Float.parseFloat(strWeight);
+		            Float height = Float.parseFloat(strHeight);
+		            
+		            if (!tglbtnNam.isSelected() && !tglbtnNu.isSelected()) {
+		                JOptionPane.showMessageDialog(null, "Bạn chưa chọn giới tính", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+		            } else if (tglbtnNam.isSelected() && tglbtnNu.isSelected()) {
+		                JOptionPane.showMessageDialog(null, "Bạn chỉ được chọn một giới tính", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+		            } else {
+		                int age = Integer.parseInt(strAge);
+		                float bmi = weight / (height * height);
+		                
+		                if (bmi < 18.5) {
+		                    setVisible(false);
+		                    UnderWeight thieuCan = new UnderWeight();
+		                    thieuCan.setVisible(true);
+		                } else if (bmi >= 18.5 && bmi <= 25) {
+		                    setVisible(false);
+		                    GoodHealth_UI khoemanh = new GoodHealth_UI();
+		                    khoemanh.setVisible(true);
+		                } else if (bmi > 25 && bmi < 30) {
+		                    setVisible(false);
+		                    OverWeight thuaCan = new OverWeight();
+		                    thuaCan.setVisible(true);
+		                } else if (bmi >= 30) {
+		                    setVisible(false);
+		                    OverWeight beoPhi = new OverWeight();
+		                    beoPhi.setVisible(true);
+		                }
+		            }
+		        } catch (NumberFormatException e2) {
+		            JOptionPane.showMessageDialog(null, "Cân nặng và chiều cao định dạng không đúng", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+		            return;
+		        }
+		    }
 		});
 	}
 }
