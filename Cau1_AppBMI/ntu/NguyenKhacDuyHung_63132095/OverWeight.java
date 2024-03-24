@@ -77,9 +77,11 @@ public class OverWeight extends JFrame {
 		lblNewLabel_3_3.setBounds(516, 412, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 		
-		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setBounds(859, 112, 309, 142);
-		contentPane.add(lblNewLabel_4);
+		JLabel lblNewLabel_4 = new JLabel("<html>Hãy ổn định chế độ ăn uống,<br> tăng cường hoạt động vận động hàng ngày để giảm cân và duy<br> trì sức khỏe tốt.</html>");
+		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_4.setFont(new Font("Baloo 2", Font.BOLD, 26));
+		lblNewLabel_4.setBounds(875, 90, 434, 205);
+		contentPane.add(lblNewLabel_4);;
 		
 		JLabel lblShowWeight = new JLabel("");
 		lblShowWeight.setHorizontalAlignment(SwingConstants.CENTER);

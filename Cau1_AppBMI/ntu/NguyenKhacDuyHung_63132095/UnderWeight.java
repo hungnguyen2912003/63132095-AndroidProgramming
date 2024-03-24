@@ -104,7 +104,7 @@ public class UnderWeight extends JFrame {
 		
 		JLabel lblNewLabel_3_2 = new JLabel("Tuổi");
 		lblNewLabel_3_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
-		lblNewLabel_3_2.setBounds(435, 417, 51, 31);
+		lblNewLabel_3_2.setBounds(437, 417, 51, 31);
 		contentPane.add(lblNewLabel_3_2);
 		
 		JLabel lblNewLabel_3_3 = new JLabel("Giới tính");
@@ -112,14 +112,16 @@ public class UnderWeight extends JFrame {
 		lblNewLabel_3_3.setBounds(513, 417, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 		
-		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setBounds(859, 112, 309, 142);
+		JLabel lblNewLabel_4 = new JLabel("<html>Hãy tăng cường khẩu phần dinh dưỡng và thực hiện các bài tập tăng cân để cải thiện sức khỏe và tăng cân an toàn.</html>");
+		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_4.setFont(new Font("Baloo 2", Font.BOLD, 25));
+		lblNewLabel_4.setBounds(801, 73, 434, 205);
 		contentPane.add(lblNewLabel_4);
 		
 		JButton btnReset = new JButton("RESET");
 		btnReset.setForeground(new Color(0, 255, 64));
 		btnReset.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
-		btnReset.setBounds(180, 490, 193, 55);
+		btnReset.setBounds(165, 490, 193, 55);
 		contentPane.add(btnReset);
 		
 		JButton btnExit = new JButton("EXIT");
@@ -128,17 +130,22 @@ public class UnderWeight extends JFrame {
 		btnExit.setBounds(409, 490, 193, 55);
 		contentPane.add(btnExit);
 		
-		JLabel bgImage = new JLabel("");
-		bgImage.setIcon(new ImageIcon(UnderWeight.class.getResource("/images/Thieucan.png")));
-		bgImage.setBounds(0, 0, 1266, 683);
-		contentPane.add(bgImage);
-		
 		//Làm tròn 1 chữ số thập phân
 		lblShowBMI.setText(String.valueOf(Math.round(bmi * 10) / 10.0f));
         lblShowHeight.setText(String.valueOf(height) + "cm");
         lblShowWeight.setText(String.valueOf(weight) + "kg");
         lblShowAge.setText(String.valueOf(age));
         lblShowGender.setText(gioitinh);
+        
+        JLabel lblNewLabel_3_3_1 = new JLabel("Cân nặng");
+        lblNewLabel_3_3_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+        lblNewLabel_3_3_1.setBounds(178, 417, 89, 31);
+        contentPane.add(lblNewLabel_3_3_1);
+        
+        JLabel bgImage = new JLabel("");
+        bgImage.setIcon(new ImageIcon(UnderWeight.class.getResource("/images/Thieucan.png")));
+        bgImage.setBounds(0, 0, 1266, 683);
+        contentPane.add(bgImage);
         
         
         btnReset.addActionListener(new ActionListener() {

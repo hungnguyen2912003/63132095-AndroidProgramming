@@ -122,8 +122,10 @@ public class Obese extends JFrame {
 		lblNewLabel_3_3.setBounds(508, 417, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 		
-		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setBounds(877, 103, 279, 196);
+		JLabel lblNewLabel_4 = new JLabel("<html>Hãy tập thể dục thường xuyên và thay đổi chế độ ăn uống của bạn để giảm<br> cân và cải thiện sức khỏe!</html>");
+		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_4.setFont(new Font("Baloo 2", Font.BOLD, 25));
+		lblNewLabel_4.setBounds(880, 97, 307, 198);
 		contentPane.add(lblNewLabel_4);
 		
 		JButton btnReset = new JButton("RESET");
