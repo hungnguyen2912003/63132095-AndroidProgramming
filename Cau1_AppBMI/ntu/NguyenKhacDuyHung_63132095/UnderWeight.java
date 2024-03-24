@@ -6,9 +6,13 @@ import java.awt.EventQueue;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
 
@@ -16,28 +20,28 @@ public class UnderWeight extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-	private AppBMI_UI appBMI_UI = new AppBMI_UI();
+    private float bmi;
+    private int height;
+    private float weight;
+    private int age;
+    private String gioitinh;
 	
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					UnderWeight frame = new UnderWeight();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	/**
 	 * Create the frame.
 	 */
-	public UnderWeight() {
+	public UnderWeight(float bmi, int height, float weight, int age, String gioitinh) {
+		
+        this.bmi = bmi;
+        this.height = height;
+        this.weight = weight;
+        this.age = age;
+        this.gioitinh = gioitinh;
+        
+        
 		setTitle("Ứng dụng kiểm tra chỉ số BMI");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1280, 720);
@@ -53,24 +57,40 @@ public class UnderWeight extends JFrame {
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel_3 = new JLabel("Cân nặng");
-		lblNewLabel_3.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
-		lblNewLabel_3.setBounds(180, 417, 89, 31);
-		contentPane.add(lblNewLabel_3);
+		JLabel lblShowWeight = new JLabel("");
+		lblShowWeight.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowWeight.setForeground(new Color(77, 139, 50));
+		lblShowWeight.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowWeight.setBounds(165, 354, 119, 62);
+		contentPane.add(lblShowWeight);
+		
+		JLabel lblShowHeight = new JLabel("");
+		lblShowHeight.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowHeight.setForeground(new Color(77, 139, 50));
+		lblShowHeight.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowHeight.setBounds(300, 354, 119, 62);
+		contentPane.add(lblShowHeight);
+		
+		JLabel lblShowAge = new JLabel("");
+		lblShowAge.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowAge.setForeground(new Color(77, 139, 50));
+		lblShowAge.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowAge.setBounds(415, 354, 89, 62);
+		contentPane.add(lblShowAge);
+		
+		JLabel lblShowGender = new JLabel("");
+		lblShowGender.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShowGender.setForeground(new Color(77, 139, 50));
+		lblShowGender.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 35));
+		lblShowGender.setBounds(513, 354, 89, 62);
+		contentPane.add(lblShowGender);
 		
 		JLabel lblShowBMI = new JLabel("");
-		lblShowBMI.setHorizontalAlignment(SwingConstants.CENTER);
 		lblShowBMI.setForeground(new Color(77, 139, 50));
+		lblShowBMI.setHorizontalAlignment(SwingConstants.CENTER);
 		lblShowBMI.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
-		lblShowBMI.setBounds(306, 188, 169, 92);
+		lblShowBMI.setBounds(306, 186, 169, 92);
 		contentPane.add(lblShowBMI);
-		
-		JLabel lblNewLabel_1 = new JLabel("Thiếu cân");
-		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setForeground(Color.WHITE);
-		lblNewLabel_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 14));
-		lblNewLabel_1.setBounds(180, 289, 81, 20);
-		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel = new JLabel("Chỉ số BMI của bạn");
 		lblNewLabel.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
@@ -92,9 +112,7 @@ public class UnderWeight extends JFrame {
 		lblNewLabel_3_3.setBounds(513, 417, 89, 31);
 		contentPane.add(lblNewLabel_3_3);
 		
-		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setBounds(808, 82, 379, 177);
-		contentPane.add(lblNewLabel_4);
+
 		
 		JButton btnReset = new JButton("RESET");
 		btnReset.setForeground(new Color(0, 255, 64));
@@ -113,13 +131,36 @@ public class UnderWeight extends JFrame {
 		bgImage.setBounds(0, 0, 1266, 683);
 		contentPane.add(bgImage);
 		
-        AppBMI_UI appBMI_UI = new AppBMI_UI();
+		//Làm tròn 1 chữ số thập phân
+		lblShowBMI.setText(String.valueOf(Math.round(bmi * 10) / 10.0f));
+        lblShowHeight.setText(String.valueOf(height) + "cm");
+        lblShowWeight.setText(String.valueOf(weight) + "kg");
+        lblShowAge.setText(String.valueOf(age));
+        lblShowGender.setText(gioitinh);
         
-        // Gọi phương thức TinhToanBMI() để nhận giá trị BMI
-        float bmi = appBMI_UI.TinhToanBMI();
         
-        // Cập nhật giá trị của lblShowBMI với giá trị BMI
-        lblShowBMI.setText(String.valueOf(bmi));
+        btnReset.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				setVisible(false);
+				AppBMI_UI appBMI_UI = new AppBMI_UI();
+				appBMI_UI.setVisible(true);
+			}
+		});
+        
+        btnExit.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				int thoat = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn thoát chương trình", "Thông báo", JOptionPane.YES_NO_OPTION);
+				if(thoat == JOptionPane.YES_OPTION) {
+					System.exit(0);
+				}
+			}
+		});
 	}
 
 }
