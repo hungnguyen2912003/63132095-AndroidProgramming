@@ -57,7 +57,7 @@ public class GoodHealth_UI extends JFrame {
 		lblNewLabel_2.setBounds(306, 186, 169, 92);
 		contentPane.add(lblNewLabel_2);
 		
-		JLabel lblNewLabel_1 = new JLabel("Normal");
+		JLabel lblNewLabel_1 = new JLabel("Khỏe");
 		lblNewLabel_1.setForeground(new Color(255, 255, 255));
 		lblNewLabel_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 16));
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);

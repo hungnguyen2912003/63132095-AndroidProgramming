@@ -8,6 +8,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.Font;
+import javax.swing.SwingConstants;
+import javax.swing.JButton;
 
 public class Obese extends JFrame {
 
@@ -48,6 +51,73 @@ public class Obese extends JFrame {
 		panel.setOpaque(false);
 		contentPane.add(panel);
 		panel.setLayout(null);
+		
+		JLabel lblNewLabel_3 = new JLabel("Cân nặng");
+		lblNewLabel_3.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3.setBounds(175, 417, 89, 31);
+		contentPane.add(lblNewLabel_3);
+		
+		JLabel lblNewLabel_2 = new JLabel("");
+		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_2.setForeground(new Color(77, 139, 50));
+		lblNewLabel_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
+		lblNewLabel_2.setBounds(301, 188, 169, 92);
+		contentPane.add(lblNewLabel_2);
+		
+		JLabel lblNewLabel_1 = new JLabel("Béo phì");
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1.setForeground(Color.WHITE);
+		lblNewLabel_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 14));
+		lblNewLabel_1.setBounds(500, 290, 81, 20);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel = new JLabel("Chỉ số BMI của bạn");
+		lblNewLabel.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel.setBounds(246, 136, 279, 49);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_3_1 = new JLabel("Chiều cao");
+		lblNewLabel_3_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3_1.setBounds(301, 417, 100, 31);
+		contentPane.add(lblNewLabel_3_1);
+		
+		JLabel lblNewLabel_3_2 = new JLabel("Tuổi");
+		lblNewLabel_3_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3_2.setBounds(430, 417, 51, 31);
+		contentPane.add(lblNewLabel_3_2);
+		
+		JLabel lblNewLabel_3_3 = new JLabel("Giới tính");
+		lblNewLabel_3_3.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3_3.setBounds(508, 417, 89, 31);
+		contentPane.add(lblNewLabel_3_3);
+		
+		JLabel lblNewLabel_7 = new JLabel("RESET");
+		lblNewLabel_7.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_7.setForeground(Color.WHITE);
+		lblNewLabel_7.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel_7.setBounds(201, 519, 146, 25);
+		contentPane.add(lblNewLabel_7);
+		
+		JLabel lblNewLabel_7_1 = new JLabel("EXIT");
+		lblNewLabel_7_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_7_1.setForeground(Color.WHITE);
+		lblNewLabel_7_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel_7_1.setBounds(430, 519, 146, 25);
+		contentPane.add(lblNewLabel_7_1);
+		
+		JButton btnNewButton = new JButton("");
+		btnNewButton.setIcon(new ImageIcon(Obese.class.getResource("/images/btn.png")));
+		btnNewButton.setBounds(175, 504, 193, 55);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("");
+		btnNewButton_1.setIcon(new ImageIcon(Obese.class.getResource("/images/btn.png")));
+		btnNewButton_1.setBounds(404, 504, 193, 55);
+		contentPane.add(btnNewButton_1);
+		
+		JLabel lblNewLabel_4 = new JLabel("");
+		lblNewLabel_4.setBounds(877, 103, 279, 196);
+		contentPane.add(lblNewLabel_4);
 		
 		JLabel bgImage = new JLabel("");
 		bgImage.setIcon(new ImageIcon(Obese.class.getResource("/images/BeoPhi.png")));
