@@ -347,7 +347,7 @@ public class AppBMI_UI extends JFrame {
                 
                 if (bmi < 18.5) {
                     setVisible(false);
-                    UnderWeight thieuCan = new UnderWeight();
+                    UnderWeight thieuCan = new UnderWeight(bmi, Integer.parseInt(strHeight), Float.parseFloat(strWeight), age, gioitinh);
                     thieuCan.setVisible(true);
                 } else if (bmi >= 18.5 && bmi <= 25) {
                     setVisible(false);
@@ -355,11 +355,11 @@ public class AppBMI_UI extends JFrame {
                     khoemanh.setVisible(true);
                 } else if (bmi > 25 && bmi < 30) {
                     setVisible(false);
-                    OverWeight thuaCan = new OverWeight();
+                    OverWeight thuaCan = new OverWeight(bmi, Integer.parseInt(strHeight), Float.parseFloat(strWeight), age, gioitinh);
                     thuaCan.setVisible(true);
                 } else if (bmi >= 30) {
                     setVisible(false);
-                    Obese beoPhi = new Obese();
+                    Obese beoPhi = new Obese(bmi, Integer.parseInt(strHeight), Float.parseFloat(strWeight), age, gioitinh);
                     beoPhi.setVisible(true);
                 }
             }
