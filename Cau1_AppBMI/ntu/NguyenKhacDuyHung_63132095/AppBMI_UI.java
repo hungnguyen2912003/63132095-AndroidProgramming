@@ -5,9 +5,15 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.concurrent.CountDownLatch;
 import java.awt.Color;
 import java.awt.FlowLayout;
 import javax.swing.JSlider;
@@ -26,21 +32,31 @@ public class AppBMI_UI extends JFrame {
 	private JTextField txtheight;
 	private JTextField txtWeight;
 	private JTextField txtAge;
+	private JSlider sliderHeight;
+	private JToggleButton tglbtnNam;
+	private JToggleButton tglbtnNu;
+	private JButton btnSubmit;
+	private JButton btntang_age;
+	private JButton btngiam_age;
+	private JButton btntang_weight;
+	private JButton btngiam_weight;
+	
+	private int countAge = 0;
+	private float countweight = 0;
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					AppBMI_UI frame = new AppBMI_UI();
-
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+	    EventQueue.invokeLater(new Runnable() {
+	        public void run() {
+	            try {
+	                AppBMI_UI frame = new AppBMI_UI();
+	                frame.setVisible(true);
+	            } catch (Exception e) {
+	                e.printStackTrace();
+	            }
+	        }
+	    });
 	}
 
 	/**
@@ -55,11 +71,29 @@ public class AppBMI_UI extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel_7 = new JLabel("Tính Toán");
-		lblNewLabel_7.setForeground(new Color(255, 255, 255));
-		lblNewLabel_7.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
-		lblNewLabel_7.setBounds(572, 618, 146, 25);
-		contentPane.add(lblNewLabel_7);
+		btntang_weight = new JButton("");
+		btntang_weight.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/btncong.png")));
+		btntang_weight.setOpaque(false);
+		btntang_weight.setBounds(780, 510, 51, 46);
+		contentPane.add(btntang_weight);
+		
+		btngiam_weight = new JButton("");
+		btngiam_weight.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/btntru.png")));
+		btngiam_weight.setOpaque(false);
+		btngiam_weight.setBounds(710, 510, 51, 46);
+		contentPane.add(btngiam_weight);
+		
+		btntang_age = new JButton("");
+		btntang_age.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/btncong.png")));
+		btntang_age.setOpaque(false);
+		btntang_age.setBounds(1024, 505, 51, 46);
+		contentPane.add(btntang_age);
+		
+		btngiam_age = new JButton("");
+		btngiam_age.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/btntru.png")));
+		btngiam_age.setOpaque(false);
+		btngiam_age.setBounds(950, 505, 51, 46);
+		contentPane.add(btngiam_age);
 		
 		JPanel panel = new JPanel();
 		panel.setBackground(new Color(255, 255, 255));
@@ -83,13 +117,13 @@ public class AppBMI_UI extends JFrame {
 		JLabel lblNewLabel_2 = new JLabel("Nam");
 		lblNewLabel_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 32));
 		lblNewLabel_2.setForeground(new Color(221, 112, 112));
-		lblNewLabel_2.setBounds(488, 289, 83, 25);
+		lblNewLabel_2.setBounds(485, 87, 83, 25);
 		contentPane.add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_3 = new JLabel("Nữ");
 		lblNewLabel_3.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 32));
 		lblNewLabel_3.setForeground(new Color(221, 112, 112));
-		lblNewLabel_3.setBounds(738, 284, 60, 35);
+		lblNewLabel_3.setBounds(732, 82, 60, 35);
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel lblNewLabel_4 = new JLabel("Chiều Cao (cm)");
@@ -110,23 +144,41 @@ public class AppBMI_UI extends JFrame {
 		lblNewLabel_6.setForeground(new Color(227, 120, 74));
 		contentPane.add(lblNewLabel_6);
 		
-		JSlider sliderHeight = new JSlider();
-		sliderHeight.setBounds(284, 519, 223, 35);
+		sliderHeight = new JSlider(JSlider.HORIZONTAL, 100, 250, 150);
+		sliderHeight.setBounds(284, 517, 223, 46);
+		sliderHeight.setMinorTickSpacing(5);
+		sliderHeight.setMajorTickSpacing(25);
+		sliderHeight.setPaintTicks(true);
+		sliderHeight.setPaintLabels(true);
 		contentPane.add(sliderHeight);
 		
-		JToggleButton tglbtnNewToggleButton = new JToggleButton("");
-		tglbtnNewToggleButton.setSelectedIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/male_select.png")));
-		tglbtnNewToggleButton.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/male.png")));
-		tglbtnNewToggleButton.setBounds(428, 113, 186, 215);
-		contentPane.add(tglbtnNewToggleButton);
+		sliderHeight.addChangeListener(new ChangeListener() {
+			
+			@Override
+			public void stateChanged(ChangeEvent e) {
+				// TODO Auto-generated method stub
+				 // Lấy giá trị mới từ Slider
+				int height = sliderHeight.getValue();
+				 // Cập nhật giá trị TextField với giá trị mới
+                txtheight.setText(String.valueOf(height));
+			}
+		});
 		
-		JToggleButton tglbtnNewToggleButton_1 = new JToggleButton("");
-		tglbtnNewToggleButton_1.setSelectedIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/female_select.png")));
-		tglbtnNewToggleButton_1.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/female.png")));
-		tglbtnNewToggleButton_1.setBounds(667, 113, 186, 215);
-		contentPane.add(tglbtnNewToggleButton_1);
+		
+		tglbtnNam = new JToggleButton("");
+		tglbtnNam.setSelectedIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/male_select.png")));
+		tglbtnNam.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/male.png")));
+		tglbtnNam.setBounds(428, 113, 186, 215);
+		contentPane.add(tglbtnNam);
+		
+		tglbtnNu = new JToggleButton("");
+		tglbtnNu.setSelectedIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/female_select.png")));
+		tglbtnNu.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/female.png")));
+		tglbtnNu.setBounds(665, 113, 186, 215);
+		contentPane.add(tglbtnNu);
 		
 		txtheight = new JTextField();
+		txtheight.setText("150");
 		txtheight.setForeground(new Color(79, 89, 98));
 		txtheight.setHorizontalAlignment(SwingConstants.CENTER);
 		txtheight.setBounds(321, 450, 152, 46);
@@ -135,8 +187,10 @@ public class AppBMI_UI extends JFrame {
 		txtheight.setBorder(null);
 		contentPane.add(txtheight);
 		txtheight.setColumns(10);
+		txtheight.setEditable(false);
 		
 		txtWeight = new JTextField();
+		txtWeight.setText("50.0");
 		txtWeight.setHorizontalAlignment(SwingConstants.CENTER);
 		txtWeight.setForeground(new Color(79, 89, 98));
 		txtWeight.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
@@ -147,6 +201,7 @@ public class AppBMI_UI extends JFrame {
 		contentPane.add(txtWeight);
 		
 		txtAge = new JTextField();
+		txtAge.setText("20");
 		txtAge.setHorizontalAlignment(SwingConstants.CENTER);
 		txtAge.setForeground(new Color(79, 89, 98));
 		txtAge.setColumns(10);
@@ -156,10 +211,14 @@ public class AppBMI_UI extends JFrame {
 		txtAge.setBounds(963, 450, 100, 35);
 		contentPane.add(txtAge);
 		
-		JButton btnNewButton = new JButton("");
-		btnNewButton.setIcon(new ImageIcon(AppBMI_UI.class.getResource("/images/btn.png")));
-		btnNewButton.setBounds(514, 600, 255, 62);
-		contentPane.add(btnNewButton);
+		btnSubmit = new JButton("Tính Toán");
+		btnSubmit.setBackground(new Color(255, 255, 255));
+		btnSubmit.setForeground(new Color(0, 128, 64));
+		btnSubmit.setFont(new Font("Baloo 2", Font.BOLD, 30));
+		btnSubmit.setBounds(512, 595, 255, 62);
+		contentPane.add(btnSubmit);
+		
+
 		
 
 		
@@ -168,7 +227,138 @@ public class AppBMI_UI extends JFrame {
 		bgImage.setBounds(0, 0, 1266, 683);
 		contentPane.add(bgImage);
 		
-	}	
+		
+		btntang_age.addActionListener(new ActionListener() {
+		    @Override
+		    public void actionPerformed(ActionEvent e) {
+		        String strAge = txtAge.getText().toString();
+		        int age = Integer.parseInt(strAge);
+		        
+		        countAge = age;
+		        countAge++;
+		        
+		        txtAge.setText(String.valueOf(countAge));
+		    }
+		});
+
+		btngiam_age.addActionListener(new ActionListener() {
+		    @Override
+		    public void actionPerformed(ActionEvent e) {
+		        String strAge = txtAge.getText().toString();
+		        
+	            int age = Integer.parseInt(strAge);
+	            
+	            if(age < 0) {
+	            	countAge = 0;
+	            }
+	            if(age != 0) {
+		            countAge = age;
+		            countAge--;
+	            }
+	            txtAge.setText(String.valueOf(countAge));
+
+
+		    }
+		});
+
+		btntang_weight.addActionListener(new ActionListener() {
+		    @Override
+		    public void actionPerformed(ActionEvent e) {
+		        String strWeight = txtWeight.getText().toString();
+		        
+	            float weight = Float.parseFloat(strWeight);
+	            countweight = weight;
+	            countweight++;
+	            txtWeight.setText(String.valueOf(countweight));
+		    }
+		});
+
+		btngiam_weight.addActionListener(new ActionListener() {
+		    @Override
+		    public void actionPerformed(ActionEvent e) {
+		        String strWeight = txtWeight.getText().toString();
+		        
+	            float weight = Float.parseFloat(strWeight);
+	            
+	            if(weight < 0) {
+	            	countweight = 0;
+	            }
+	            if(weight != 0) {
+		            countweight = weight;
+		            countweight--;
+	            }
+	            txtWeight.setText(String.valueOf(countweight));
+		    }
+		});
+		
+		
+		
+		
+		//Xử lý nút Tính toán
+		btnSubmit.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				String strWeight = txtWeight.getText().toString();
+				String strHeight = txtheight.getText().toString();
+				String strAge = txtAge.getText().toString();
+				
+				try {
+					Float weight = Float.parseFloat(strWeight);
+
+				} catch (Exception e2) {
+					JOptionPane.showMessageDialog(null, "Định dạng số cân nặng không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+					txtWeight.requestFocus();
+					txtWeight.setText("");
+				}
+				
+				try {
+					Float height = Float.parseFloat(strHeight);
+
+				} catch (Exception e2) {
+					JOptionPane.showMessageDialog(null, "Định dạng số chiều cao không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+					txtheight.requestFocus();
+					txtheight.setText("");
+				}
+				
+				try {
+					int age = Integer.parseInt(strAge);
+
+				} catch (Exception e2) {
+					JOptionPane.showMessageDialog(null, "Định dạng số tuổi không đúng. Vui lòng nhập lại", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+					txtAge.requestFocus();
+					txtAge.setText("");
+				}
+				
+				if(!tglbtnNam.isSelected() || !tglbtnNam.isSelected()) {
+					JOptionPane.showMessageDialog(null, "Bạn chưa chọn giới tính", "Thông báo lỗi", JOptionPane.ERROR_MESSAGE);
+				}
+				
+				Float weight = Float.parseFloat(strWeight);
+				Float height = Float.parseFloat(strHeight);
+				int age = Integer.parseInt(strWeight);
+
+				float bmi =weight/(float)Math.pow(height,2);
+				
+	            if (bmi < 18.5) {
+	            	
+	            }	
+	            else if (bmi >= 18.5 && bmi <= 25) {
+	            	
+	            }
+	            else if (bmi > 25 && bmi < 30) {
+	            	
+	            }
+	            if (bmi >= 30) {
+	            	
+	            }
+
+			}
+		});
+	}
 }
+		
+
 
 
