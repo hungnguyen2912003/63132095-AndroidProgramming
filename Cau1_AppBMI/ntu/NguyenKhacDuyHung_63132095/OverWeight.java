@@ -8,6 +8,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.Font;
+import javax.swing.SwingConstants;
+import javax.swing.JButton;
 
 public class OverWeight extends JFrame {
 
@@ -48,6 +51,73 @@ public class OverWeight extends JFrame {
 		panel.setOpaque(false);
 		contentPane.add(panel);
 		panel.setLayout(null);
+		
+		JLabel lblNewLabel_3 = new JLabel("Cân nặng");
+		lblNewLabel_3.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3.setBounds(183, 412, 89, 31);
+		contentPane.add(lblNewLabel_3);
+		
+		JLabel lblNewLabel_2 = new JLabel("");
+		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_2.setForeground(new Color(77, 139, 50));
+		lblNewLabel_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 60));
+		lblNewLabel_2.setBounds(309, 183, 169, 92);
+		contentPane.add(lblNewLabel_2);
+		
+		JLabel lblNewLabel_1 = new JLabel("Thừa cân");
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1.setForeground(Color.WHITE);
+		lblNewLabel_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 14));
+		lblNewLabel_1.setBounds(395, 289, 81, 20);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel = new JLabel("Chỉ số BMI của bạn");
+		lblNewLabel.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel.setBounds(254, 131, 279, 49);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_3_1 = new JLabel("Chiều cao");
+		lblNewLabel_3_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3_1.setBounds(309, 412, 100, 31);
+		contentPane.add(lblNewLabel_3_1);
+		
+		JLabel lblNewLabel_3_2 = new JLabel("Tuổi");
+		lblNewLabel_3_2.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3_2.setBounds(438, 412, 51, 31);
+		contentPane.add(lblNewLabel_3_2);
+		
+		JLabel lblNewLabel_3_3 = new JLabel("Giới tính");
+		lblNewLabel_3_3.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 20));
+		lblNewLabel_3_3.setBounds(516, 412, 89, 31);
+		contentPane.add(lblNewLabel_3_3);
+		
+		JLabel lblNewLabel_7 = new JLabel("RESET");
+		lblNewLabel_7.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_7.setForeground(Color.WHITE);
+		lblNewLabel_7.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel_7.setBounds(209, 514, 146, 25);
+		contentPane.add(lblNewLabel_7);
+		
+		JLabel lblNewLabel_7_1 = new JLabel("EXIT");
+		lblNewLabel_7_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_7_1.setForeground(Color.WHITE);
+		lblNewLabel_7_1.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel_7_1.setBounds(438, 514, 146, 25);
+		contentPane.add(lblNewLabel_7_1);
+		
+		JButton btnNewButton = new JButton("");
+		btnNewButton.setIcon(new ImageIcon(OverWeight.class.getResource("/images/btn.png")));
+		btnNewButton.setBounds(183, 499, 193, 55);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("");
+		btnNewButton_1.setIcon(new ImageIcon(OverWeight.class.getResource("/images/btn.png")));
+		btnNewButton_1.setBounds(412, 499, 193, 55);
+		contentPane.add(btnNewButton_1);
+		
+		JLabel lblNewLabel_4 = new JLabel("");
+		lblNewLabel_4.setBounds(859, 112, 309, 142);
+		contentPane.add(lblNewLabel_4);
 		
 		JLabel bgImage = new JLabel("");
 		bgImage.setIcon(new ImageIcon(OverWeight.class.getResource("/images/ThuaCan.png")));

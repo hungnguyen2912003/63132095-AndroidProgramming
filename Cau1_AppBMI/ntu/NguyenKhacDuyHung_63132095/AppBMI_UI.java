@@ -55,6 +55,12 @@ public class AppBMI_UI extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		JLabel lblNewLabel_7 = new JLabel("Tính Toán");
+		lblNewLabel_7.setForeground(new Color(255, 255, 255));
+		lblNewLabel_7.setFont(new Font("Baloo 2 ExtraBold", Font.BOLD, 30));
+		lblNewLabel_7.setBounds(572, 618, 146, 25);
+		contentPane.add(lblNewLabel_7);
+		
 		JPanel panel = new JPanel();
 		panel.setBackground(new Color(255, 255, 255));
 		panel.setBounds(165, 10, 948, 62);
