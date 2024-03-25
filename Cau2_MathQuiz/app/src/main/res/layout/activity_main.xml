@@ -166,14 +166,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imbcong"
 
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="75dp"
-            android:background="@drawable/background2"
+            android:background="@drawable/background2btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -181,54 +181,54 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imbTru"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="75dp"
-            android:background="@drawable/background3"
+            android:background="@drawable/background3btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+            app:layout_constraintTop_toBottomOf="@+id/imbcong" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imbNhan"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="75dp"
-            android:background="@drawable/background4"
+            android:background="@drawable/background4btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+            app:layout_constraintTop_toBottomOf="@+id/imbTru" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imbChia"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="75dp"
-            android:background="@drawable/background5"
+            android:background="@drawable/background5btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+            app:layout_constraintTop_toBottomOf="@+id/imbNhan" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imbTonghop"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginStart="75dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="75dp"
-            android:background="@drawable/background6"
+            android:background="@drawable/background6btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+            app:layout_constraintTop_toBottomOf="@+id/imbChia" />
 
         <TextView
             android:id="@+id/textView8"
@@ -238,10 +238,10 @@
             android:text="Phép tính Cộng"
             android:textColor="#A82323"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-            app:layout_constraintStart_toStartOf="@+id/imageButton2"
-            app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+            app:layout_constraintBottom_toBottomOf="@+id/imbcong"
+            app:layout_constraintEnd_toEndOf="@+id/imbcong"
+            app:layout_constraintStart_toStartOf="@+id/imbcong"
+            app:layout_constraintTop_toTopOf="@+id/imbcong" />
 
         <TextView
             android:id="@+id/textView9"
@@ -251,10 +251,10 @@
             android:text="Phép tính Trừ"
             android:textColor="#145385"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton3"
-            app:layout_constraintStart_toStartOf="@+id/imageButton3"
-            app:layout_constraintTop_toTopOf="@+id/imageButton3" />
+            app:layout_constraintBottom_toBottomOf="@+id/imbTru"
+            app:layout_constraintEnd_toEndOf="@+id/imbTru"
+            app:layout_constraintStart_toStartOf="@+id/imbTru"
+            app:layout_constraintTop_toTopOf="@+id/imbTru" />
 
         <TextView
             android:id="@+id/textView10"
@@ -264,10 +264,10 @@
             android:text="Phép tính Nhân"
             android:textColor="#931FA6"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-            app:layout_constraintStart_toStartOf="@+id/imageButton4"
-            app:layout_constraintTop_toTopOf="@+id/imageButton4" />
+            app:layout_constraintBottom_toBottomOf="@+id/imbNhan"
+            app:layout_constraintEnd_toEndOf="@+id/imbNhan"
+            app:layout_constraintStart_toStartOf="@+id/imbNhan"
+            app:layout_constraintTop_toTopOf="@+id/imbNhan" />
 
         <TextView
             android:id="@+id/textView11"
@@ -277,10 +277,10 @@
             android:text="Phép tính Chia"
             android:textColor="#0F554E"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton5"
-            app:layout_constraintStart_toStartOf="@+id/imageButton5"
-            app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+            app:layout_constraintBottom_toBottomOf="@+id/imbChia"
+            app:layout_constraintEnd_toEndOf="@+id/imbChia"
+            app:layout_constraintStart_toStartOf="@+id/imbChia"
+            app:layout_constraintTop_toTopOf="@+id/imbChia" />
 
         <TextView
             android:id="@+id/textView13"
@@ -290,10 +290,10 @@
             android:text="Phép tính Tổng hợp"
             android:textColor="#B87819"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton6"
-            app:layout_constraintStart_toStartOf="@+id/imageButton6"
-            app:layout_constraintTop_toTopOf="@+id/imageButton6" />
+            app:layout_constraintBottom_toBottomOf="@+id/imbTonghop"
+            app:layout_constraintEnd_toEndOf="@+id/imbTonghop"
+            app:layout_constraintStart_toStartOf="@+id/imbTonghop"
+            app:layout_constraintTop_toTopOf="@+id/imbTonghop" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
