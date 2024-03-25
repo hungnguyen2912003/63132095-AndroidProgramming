@@ -1,12 +1,9 @@
 package ntu.NguyenKhacDuyHung_63132095;
 
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,19 +11,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
-    ImageButton btn;
+public class Introduce5 extends AppCompatActivity {
+    ImageButton btnql;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        btn = findViewById(R.id.imbBatdau);
-        btn.setOnClickListener(new View.OnClickListener() {
+
+        setContentView(R.layout.activity_introduce5);
+
+        btnql = findViewById(R.id.btnquaylai5);
+
+        btnql.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Introduce1.class);
+                Intent intent = new Intent(Introduce5.this, Introduce4.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
     }
