@@ -148,8 +148,8 @@ public class PTCong extends AppCompatActivity {
     //Hàm xử lý
     public void TaoNgauNhien_PhepTinhCong(){
         Random rand = new Random();
-        int a = rand.nextInt(21);
-        int b = rand.nextInt(21);
+        int a = rand.nextInt(101);
+        int b = rand.nextInt(101);
         soA.setText(String.valueOf(a));
         soB.setText(String.valueOf(b));
 
