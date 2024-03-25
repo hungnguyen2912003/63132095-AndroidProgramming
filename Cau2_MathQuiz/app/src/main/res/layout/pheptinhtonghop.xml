@@ -6,7 +6,7 @@
     android:background="@drawable/bg6">
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imbQuaylai"
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:layout_marginStart="10dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/tvsubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo"
@@ -93,7 +93,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tvSelect1"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -107,7 +107,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/tvSelect2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="45dp"
@@ -121,7 +121,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/tvSelect3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -135,7 +135,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/tvSelect4"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="40dp"
@@ -160,7 +160,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
-        app:srcCompat="@mipmap/equal2" />
+        app:srcCompat="@mipmap/equal" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
@@ -176,7 +176,6 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            tools:ignore="MissingConstraints"
             android:layout_width="80dp"
             android:layout_height="60dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -238,7 +237,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tvSoCau"
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -263,7 +262,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tvSoCauDung"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/lobster"
@@ -298,8 +297,8 @@
         android:fontFamily="@font/lobster"
         android:text="Quay lại"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintBottom_toBottomOf="@+id/imbQuaylai"
+        app:layout_constraintEnd_toEndOf="@+id/imbQuaylai"
+        app:layout_constraintStart_toStartOf="@+id/imbQuaylai"
+        app:layout_constraintTop_toTopOf="@+id/imbQuaylai" />
 </androidx.constraintlayout.widget.ConstraintLayout>
