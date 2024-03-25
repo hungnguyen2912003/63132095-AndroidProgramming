@@ -162,7 +162,7 @@ public class PTCong extends AppCompatActivity {
 
 
         while (dsdapan.size() < 4) {
-            int luachon = rand.nextInt(41);
+            int luachon = rand.nextInt(101);
             if (!dsdapan.contains(luachon)) {
                 dsdapan.add(luachon);
             }

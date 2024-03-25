@@ -40,7 +40,7 @@ public class PTNhan extends AppCompatActivity {
 
         welcome = new AlertDialog.Builder(PTNhan.this);
         welcome.setTitle("Chào mừng");
-        welcome.setMessage("Bạn đang lựa chọn Quiz Phép tính Cộng. Quiz sẽ có 10 câu phép tính ngẫu nhiên. Nhiệm vụ của bạn là tìm đáp án đúng. Chúc bạn chơi vui vẻ!");
+        welcome.setMessage("Bạn đang lựa chọn Quiz Phép tính Nhân. Quiz sẽ có 10 câu phép tính ngẫu nhiên. Nhiệm vụ của bạn là tìm đáp án đúng. Chúc bạn chơi vui vẻ!");
         welcome.setPositiveButton("Bắt đầu", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -159,7 +159,7 @@ public class PTNhan extends AppCompatActivity {
 
 
         while (dsdapan.size() < 4) {
-            int luachon = rand.nextInt(41);
+            int luachon = rand.nextInt(5000);
             if (!dsdapan.contains(luachon)) {
                 dsdapan.add(luachon);
             }

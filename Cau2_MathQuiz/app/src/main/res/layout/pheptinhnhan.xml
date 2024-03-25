@@ -85,11 +85,11 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="55dp"
             android:fontFamily="@font/baloo"
             android:textAlignment="center"
             android:textColor="#A8271D"
-            android:textSize="48sp"
+            android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -97,12 +97,12 @@
             android:id="@+id/tvSelect2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="55dp"
             android:layout_marginEnd="40dp"
             android:fontFamily="@font/baloo"
             android:textAlignment="center"
             android:textColor="#154871"
-            android:textSize="48sp"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,11 +111,11 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            android:layout_marginBottom="45dp"
+            android:layout_marginBottom="55dp"
             android:fontFamily="@font/baloo"
             android:textAlignment="center"
             android:textColor="#0D5C55"
-            android:textSize="48sp"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -124,11 +124,11 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="40dp"
-            android:layout_marginBottom="45dp"
+            android:layout_marginBottom="55dp"
             android:fontFamily="@font/baloo"
             android:textAlignment="center"
             android:textColor="#8F5D12"
-            android:textSize="48sp"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 

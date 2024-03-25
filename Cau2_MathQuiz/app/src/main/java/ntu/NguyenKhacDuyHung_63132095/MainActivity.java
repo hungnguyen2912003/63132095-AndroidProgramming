@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton btnSelectCong, btnSelectTru, btnSelectNhan, btnSelectChia, btnSelectTongHop;
+    ImageButton btnSelectCong, btnSelectTru, btnSelectNhan, btnSelectChia;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,13 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnSelectTongHop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent tonghopScreen = new Intent(MainActivity.this, PTTH.class);
-                startActivity(tonghopScreen);
-            }
-        });
 
     }
 
@@ -70,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         btnSelectTru = findViewById(R.id.imbTru);
         btnSelectNhan = findViewById(R.id.imbNhan);
         btnSelectChia = findViewById(R.id.imbChia);
-        btnSelectTongHop = findViewById(R.id.imbTonghop);
     }
 
 }
