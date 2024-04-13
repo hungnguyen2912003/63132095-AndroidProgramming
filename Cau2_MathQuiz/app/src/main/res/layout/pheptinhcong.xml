@@ -50,6 +50,7 @@
             android:layout_height="80dp"
             android:layout_marginStart="20dp"
             android:ems="10"
+            android:enabled="false"
             android:fontFamily="@font/chewy"
             android:inputType="number"
             android:textAlignment="center"

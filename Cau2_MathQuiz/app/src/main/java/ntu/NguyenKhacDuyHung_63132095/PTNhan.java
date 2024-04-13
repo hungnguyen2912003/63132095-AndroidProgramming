@@ -37,6 +37,8 @@ public class PTNhan extends AppCompatActivity {
         setContentView(R.layout.pheptinhnhan);
 
         TimDieuKhien();
+        soA.setEnabled(false);
+        soB.setEnabled(false);
 
         welcome = new AlertDialog.Builder(PTNhan.this);
         welcome.setTitle("Chào mừng");

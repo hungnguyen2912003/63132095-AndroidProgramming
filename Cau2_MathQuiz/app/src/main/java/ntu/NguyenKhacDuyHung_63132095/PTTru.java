@@ -38,6 +38,8 @@ public class PTTru extends AppCompatActivity {
         setContentView(R.layout.pheptinhtru);
 
         TimDieuKhien();
+        soA.setEnabled(false);
+        soB.setEnabled(false);
 
         welcome = new AlertDialog.Builder(PTTru.this);
         welcome.setTitle("Chào mừng");

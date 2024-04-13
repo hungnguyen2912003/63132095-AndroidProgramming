@@ -38,6 +38,8 @@ public class PTCong extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pheptinhcong);
         TimDieuKhien();
+        soA.setEnabled(false);
+        soB.setEnabled(false);
 
         welcome = new AlertDialog.Builder(PTCong.this);
         welcome.setTitle("Chào mừng");

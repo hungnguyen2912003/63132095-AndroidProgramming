@@ -13,9 +13,6 @@
         android:theme="@style/Theme.Cau2_MathQuiz"
         tools:targetApi="31">
         <activity
-            android:name=".PTTH"
-            android:exported="false" />
-        <activity
             android:name=".PTChia"
             android:exported="false" />
         <activity

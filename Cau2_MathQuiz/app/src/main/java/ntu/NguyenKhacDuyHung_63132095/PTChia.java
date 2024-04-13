@@ -37,6 +37,8 @@ public class PTChia extends AppCompatActivity {
         setContentView(R.layout.pheptinhchia);
 
         TimDieuKhien();
+        soA.setEnabled(false);
+        soB.setEnabled(false);
 
         welcome = new AlertDialog.Builder(PTChia.this);
         welcome.setTitle("Chào mừng");
