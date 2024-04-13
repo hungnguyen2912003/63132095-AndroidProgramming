@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "NguyenKhacDuyHung.BaiKT2"
+    namespace = "com.example.baikt2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "NguyenKhacDuyHung.BaiKT2"
+        applicationId = "com.example.baikt2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
