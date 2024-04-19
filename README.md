@@ -67,6 +67,18 @@
 <h2 align="left">🙀TRUY CẬP NHANH SOURCES CÁC VÍ DỤ BÀI HỌC🙀</h2>
 
 ###
+<div>
+  <h4>Intent Ví dụ 1: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Intent_VD1_ExplicitIntents/app/src/main">ExplicitIntents</a></h4>
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd11.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd12.png" width = "200">
+</div>
+
+<div>
+  <h4>Intent Ví dụ 2: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Intent_VD2_Login/app/src/main">Login</a></h4>
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd21.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd22.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd23.png" width = "200">
+</div>
 
 <div>
   <h4>ListView Nâng Cao: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/LVNangCao/app/src/main">LVNangCao</a></h4>
