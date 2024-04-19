@@ -1,6 +1,11 @@
 package ntu.nguyenkhacduyhung.intent_vd2_login;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,9 +15,41 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ActivityLogin extends AppCompatActivity {
 
+    EditText edtUserName, edtPassword, edtEmail;
+    Button btnConfirm;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        TimDieuKhien();
+
+        btnConfirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String strUserName = edtUserName.getText().toString();
+                String strPassword = edtPassword.getText().toString();
+                String strEmail = edtEmail.getText().toString();
+
+                if(strUserName.equals("nguyenkhacduyhung") && strPassword.equals("123")){
+                    Intent iHome = new Intent(ActivityLogin.this, ActivityHome.class);
+
+                    startActivity(iHome);
+                }
+                else{
+                    Toast.makeText(ActivityLogin.this, "Tài khoản hoặc mật khẩu không chính xác. Vui lòng kiểm tra lại", Toast.LENGTH_SHORT).show();
+                    edtUserName.setText("");
+                    edtPassword.setText("");
+                }
+            }
+        });
+    }
+
+    void TimDieuKhien(){
+        edtUserName = findViewById(R.id.edtUserName);
+        edtPassword = findViewById(R.id.edtPass);
+        edtEmail = findViewById(R.id.edtEmail);
+
+        btnConfirm = findViewById(R.id.btnOK);
     }
 }
