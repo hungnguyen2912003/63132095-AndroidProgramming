@@ -13,9 +13,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import android.util.Patterns;
+
 public class ActivityLogin extends AppCompatActivity {
 
-    EditText edtUserName, edtPassword;
+    EditText edtUserName, edtPassword, edtEmail;
     Button btnConfirm;
 
     @Override
@@ -29,16 +31,21 @@ public class ActivityLogin extends AppCompatActivity {
             public void onClick(View v) {
                 String strUserName = edtUserName.getText().toString();
                 String strPassword = edtPassword.getText().toString();
-
-                if(strUserName.equals("nguyenkhacduyhung") && strPassword.equals("123")){
+                String strEmail = edtEmail.getText().toString().trim();
+                if(strUserName.equals("nguyenkhacduyhung") && strPassword.equals("123") && Patterns.EMAIL_ADDRESS.matcher(strEmail).matches()){
                     Intent iHome = new Intent(ActivityLogin.this, ActivityHome.class);
                     iHome.putExtra("UserName", strUserName);
                     startActivity(iHome);
                 }
-                else{
+                else if (!Patterns.EMAIL_ADDRESS.matcher(strEmail).matches()) {
+                    Toast.makeText(ActivityLogin.this, "Định dạng Email không chính xác. Vui lòng kiểm tra lại", Toast.LENGTH_SHORT).show();
+                    edtEmail.setText("");
+                }
+                else if (strUserName.equals("nguyenkhacduyhung") && strPassword.equals("123")) {
                     Toast.makeText(ActivityLogin.this, "Tài khoản hoặc mật khẩu không chính xác. Vui lòng kiểm tra lại", Toast.LENGTH_SHORT).show();
                     edtUserName.setText("");
                     edtPassword.setText("");
+
                 }
             }
         });
@@ -47,6 +54,7 @@ public class ActivityLogin extends AppCompatActivity {
     public void TimDieuKhien(){
         edtUserName = findViewById(R.id.edtUserName);
         edtPassword = findViewById(R.id.edtPass);
+        edtEmail = findViewById(R.id.edtEmail);
         btnConfirm = findViewById(R.id.btnOK);
     }
 }
