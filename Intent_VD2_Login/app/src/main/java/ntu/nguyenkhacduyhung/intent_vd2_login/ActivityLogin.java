@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ActivityLogin extends AppCompatActivity {
 
-    EditText edtUserName, edtPassword, edtEmail;
+    EditText edtUserName, edtPassword;
     Button btnConfirm;
 
     @Override
@@ -29,11 +29,10 @@ public class ActivityLogin extends AppCompatActivity {
             public void onClick(View v) {
                 String strUserName = edtUserName.getText().toString();
                 String strPassword = edtPassword.getText().toString();
-                String strEmail = edtEmail.getText().toString();
 
                 if(strUserName.equals("nguyenkhacduyhung") && strPassword.equals("123")){
                     Intent iHome = new Intent(ActivityLogin.this, ActivityHome.class);
-
+                    iHome.putExtra("UserName", strUserName);
                     startActivity(iHome);
                 }
                 else{
@@ -45,11 +44,9 @@ public class ActivityLogin extends AppCompatActivity {
         });
     }
 
-    void TimDieuKhien(){
+    public void TimDieuKhien(){
         edtUserName = findViewById(R.id.edtUserName);
         edtPassword = findViewById(R.id.edtPass);
-        edtEmail = findViewById(R.id.edtEmail);
-
         btnConfirm = findViewById(R.id.btnOK);
     }
 }
