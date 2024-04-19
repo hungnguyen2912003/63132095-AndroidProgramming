@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="160dp"
         android:text="MÀN HÌNH ĐĂNG NHẬP"
         android:textColor="#1732CD"
@@ -21,9 +21,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="#FFC000"
@@ -51,7 +52,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/tvUserName"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -63,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/tvPass"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -72,10 +73,9 @@
         android:textColor="#070A1B"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -84,39 +84,42 @@
         android:textColor="#070A1B"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPass" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/edtUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
+        android:hint="Nhập tên đăng nhập"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/tvUserName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/edtPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
+        android:hint="Nhập mật khẩu"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/tvPass"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
 
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
+        android:hint="Nhập Email"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/tvEmail"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPass" />
 
     <Button
@@ -124,13 +127,13 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="50dp"
         android:layout_marginEnd="160dp"
+        android:layout_marginBottom="220dp"
         android:backgroundTint="#0283EA"
         android:text="XÁC NHẬN"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

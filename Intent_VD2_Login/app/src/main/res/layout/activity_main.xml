@@ -42,7 +42,7 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="160dp"
-        android:text="MÀN HÌNH CHÍNH"
+        android:text="TRANG CHỦ"
         android:textColor="#335A05"
         android:textSize="24sp"
         android:textStyle="bold"
