@@ -6,10 +6,6 @@
   <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
 </div>
 
-<h2 align="center">Lập trình Android<br>Android Programming</h2>
-
-###
-
 <h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH😽</h2>
 
 ###
