@@ -1,7 +1,3 @@
-<h2 align="center">Hi 👋, I'm Hung. <br>A student of Nha Trang University.</h2>
-
-###
-
 <h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG<br>Mobile Programming</h2>
 
 ###
@@ -14,9 +10,34 @@
 
 ###
 
-<h3 align="left">Tại đây lưu trữ liên quan đến lập trình Android :<br>📚 Các bài tập tự luyện.<br>📚 Các bài tập thực hành.<br>📚 Các dự án cho kỳ thi học phần.</h3>
+<h3 align="left">📚 Mục lục 📚</h3>
 
-<h2 align="left">🙀TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH🙀</h2>
+###
+
+<ul align="left">
+  <li>
+    <h4 align="left">🙀TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH🙀</h4>
+
+  ###
+  </li>
+    <li>
+    <h4 align="left">🙀TRUY CẬP NHANH SOURCES CÁC VÍ DỤ BÀI HỌC🙀</h4>
+
+  ###
+  </li>
+  <li>
+    <h4 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN😽</h4>
+
+  ###
+  </li>
+  <li>
+    <h4 align="left">💖TRUY CẬP NHANH SOURCES KIỂM TRA GIỮA KỲ 2024 💖</h4>
+
+  ###
+  </li>
+</ul>
+
+<h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN😽</h2>
 
 ###
 <div>
