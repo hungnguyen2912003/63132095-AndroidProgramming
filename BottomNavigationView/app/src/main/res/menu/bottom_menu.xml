@@ -19,4 +19,12 @@
         android:title="Video"
         />
 
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/forum_24px"
+        android:title="Tin nhắn"
+        />
+
+    
+
 </menu>
