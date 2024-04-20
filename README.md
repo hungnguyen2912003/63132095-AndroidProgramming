@@ -10,34 +10,7 @@
 
 ###
 
-<h3 align="left">📚 Mục lục 📚</h3>
-
-###
-
-<ul align="left">
-  <li>
-    <h4 align="left">🙀TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH🙀</h4>
-
-  ###
-  </li>
-    <li>
-    <h4 align="left">🙀TRUY CẬP NHANH SOURCES CÁC VÍ DỤ BÀI HỌC🙀</h4>
-
-  ###
-  </li>
-  <li>
-    <h4 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN😽</h4>
-
-  ###
-  </li>
-  <li>
-    <h4 align="left">💖TRUY CẬP NHANH SOURCES KIỂM TRA GIỮA KỲ 2024 💖</h4>
-
-  ###
-  </li>
-</ul>
-
-<h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN😽</h2>
+<h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH😽</h2>
 
 ###
 <div>
