@@ -13,4 +13,10 @@
         android:title="Bạn bè"
         />
 
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/video_library_24px"
+        android:title="Video"
+        />
+
 </menu>
