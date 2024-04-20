@@ -1,7 +1,3 @@
-<h2 align="center">Hi 👋, I'm Hung. <br>A student of Nha Trang University.</h2>
-
-###
-
 <h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG<br>Mobile Programming</h2>
 
 ###
@@ -10,13 +6,7 @@
   <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
 </div>
 
-<h2 align="center">Lập trình Android<br>Android Programming</h2>
-
-###
-
-<h3 align="left">Tại đây lưu trữ liên quan đến lập trình Android :<br>📚 Các bài tập tự luyện.<br>📚 Các bài tập thực hành.<br>📚 Các dự án cho kỳ thi học phần.</h3>
-
-<h2 align="left">🙀TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH🙀</h2>
+<h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH😽</h2>
 
 ###
 <div>
@@ -67,6 +57,18 @@
 <h2 align="left">🙀TRUY CẬP NHANH SOURCES CÁC VÍ DỤ BÀI HỌC🙀</h2>
 
 ###
+<div>
+  <h4>Intent Ví dụ 1: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Intent_VD1_ExplicitIntents/app/src/main">ExplicitIntents</a></h4>
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd11.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd12.png" width = "200">
+</div>
+
+<div>
+  <h4>Intent Ví dụ 2: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Intent_VD2_Login/app/src/main">Login</a></h4>
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd21.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd22.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd23.png" width = "200">
+</div>
 
 <div>
   <h4>ListView Nâng Cao: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/LVNangCao/app/src/main">LVNangCao</a></h4>
