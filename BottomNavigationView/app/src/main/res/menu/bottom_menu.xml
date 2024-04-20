@@ -25,6 +25,16 @@
         android:title="Tin nhắn"
         />
 
-    
+    <item
+        android:id="notify"
+        android:icon="@drawable/notifications_24px"
+        android:title="Thông báo"
+        />
+
+    <item
+        android:id="profile"
+        android:icon="@drawable/account_circle_24px"
+        android:title="Cá nhân"
+        />
 
 </menu>
