@@ -7,4 +7,10 @@
         android:title="Trang chủ"
         />
 
+    <item
+        android:id="@+id/friend"
+        android:icon="@drawable/diversity_4_24px"
+        android:title="Bạn bè"
+        />
+
 </menu>
