@@ -9,13 +9,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import ntu.nguyenkhacduyhung.bottomnavigationview.HomeFragment;
 import ntu.nguyenkhacduyhung.bottomnavigationview.R;
 
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.homeViewHolder> {

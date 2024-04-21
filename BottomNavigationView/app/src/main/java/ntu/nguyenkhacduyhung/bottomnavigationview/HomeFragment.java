@@ -72,19 +72,17 @@ public class HomeFragment extends Fragment {
         ls = new ArrayList<HomePage>();
         ls.add(new HomePage("boy1", "Đỗ Quang Minh", "3 phút trước", "Thả timm là trái dâu sẽ đổi màu nha, thiệt luôn", "bai1", 500, 200, 50));
         ls.add(new HomePage("girl2", "Huỳnh Thiên An", "2 tiếng trước", "Từng ao ước có một ngôi nhà cạnh bờ biển", "bai2", 825, 125, 200));
-        ls.add(new HomePage("boy4", "Phạm Bảo Khang", "1 ngày trước", "Tự hỏi bản thân khi nào thì đến lượt mình hạnh phúc...", "bai3", 522, 225, 15));
-        ls.add(new HomePage("girl5", "Huỳnh Yến", "3 ngày trước", "Đừng nói về chúng ta của sau này bởi sau này làm gì có chúng ta.", "bai4", 1500, 500, 250));
-        ls.add(new HomePage("boy3", "Nguyễn Hưng", "15 phút trước", "Nếu cuộc đời là một cuốn sách, thì có một vài trang tôi thật sự muốn xé đi...", "bai5", 940, 100, 300));
+        ls.add(new HomePage("boy4", "Phạm Bảo Khang", "1 ngày trước", "Tự hỏi bản thân khi nào thì đến lượt mình hạnh phúc...", "baiviet3", 522, 225, 15));
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        RecyclerView recycler = view.findViewById(R.id.recyclerView);
+        recyclerView = view.findViewById(R.id.recyclerView);
 
-        recycler.setLayoutManager(new LinearLayoutManager(requireContext()));
+        recyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));
 
         adapter = new HomeAdapter(requireContext(), ls);
 
-        recycler.setAdapter(adapter);
+        recyclerView.setAdapter(adapter);
 
         return view;
     }
