@@ -7,6 +7,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+import ntu.nguyenkhacduyhung.bottomnavigationview.Friend.FriendAdapter;
+import ntu.nguyenkhacduyhung.bottomnavigationview.Friend.Friends;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +29,8 @@ public class FriendFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    ArrayList<Friends> dsFriend;
 
     public FriendFragment() {
         // Required empty public constructor
@@ -58,7 +66,29 @@ public class FriendFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        dsFriend = new ArrayList<Friends>();
+        dsFriend.add(new Friends("Đỗ Quang Minh", "boy1", 25));
+        dsFriend.add(new Friends("Nguyễn Thế Anh", "boy2", 5));
+        dsFriend.add(new Friends("Phạm Ngọc Thư", "girl1", 60));
+        dsFriend.add(new Friends("Huỳnh Thiên An", "girl2", 150));
+        dsFriend.add(new Friends("Nguyễn Hưng", "boy3", 42));
+        dsFriend.add(new Friends("Vân Phạm", "girl3", 37));
+        dsFriend.add(new Friends("Phạm Bảo Khang", "boy4", 16));
+        dsFriend.add(new Friends("Phan Kiều", "girl4", 23));
+        dsFriend.add(new Friends("Huỳnh Yến", "girl5", 76));
+        dsFriend.add(new Friends("David Beckham", "boy5", 60));
+        dsFriend.add(new Friends("Bảo Bảo", "boy6", 30));
+        dsFriend.add(new Friends("Cao Văn Long", "boy7", 23));
+
+
+        View view = inflater.inflate(R.layout.fragment_friend, container, false);
+        ListView listView = view.findViewById(R.id.lvFriends);
+        FriendAdapter adapter = new FriendAdapter(getActivity(), dsFriend);
+
+        listView.setAdapter(adapter);
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_friend, container, false);
+        return view;
     }
 }
