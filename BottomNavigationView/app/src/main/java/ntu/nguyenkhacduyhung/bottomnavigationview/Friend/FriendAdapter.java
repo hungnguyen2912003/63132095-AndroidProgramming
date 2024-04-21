@@ -45,17 +45,17 @@ public class FriendAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        CountryViewHolder viewItem;
+        FriendViewHolder viewItem;
         if(convertView == null){
             convertView = mInfater.inflate(R.layout.item_friends, null);
-            viewItem = new CountryViewHolder();
+            viewItem = new FriendViewHolder();
             viewItem.tvNameFriend = convertView.findViewById(R.id.tvName);
             viewItem.tvBanChung = convertView.findViewById(R.id.tvBanchung);
             viewItem.imageViewFriend = convertView.findViewById(R.id.ivfriend);
             convertView.setTag(viewItem);
         }
         else{
-            viewItem = (CountryViewHolder)convertView.getTag();
+            viewItem = (FriendViewHolder)convertView.getTag();
         }
         //Đặt dữ liệu lên view
         Friends friends = lsFriends.get(position);
@@ -78,10 +78,9 @@ public class FriendAdapter extends BaseAdapter {
         return id;
     }
 
-    static class CountryViewHolder{
+    static class FriendViewHolder{
         ImageView imageViewFriend;
         TextView tvNameFriend;
         TextView tvBanChung;
-
     }
 }
