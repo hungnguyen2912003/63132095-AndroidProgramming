@@ -3,10 +3,17 @@ package ntu.nguyenkhacduyhung.bottomnavigationview;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+
+import ntu.nguyenkhacduyhung.bottomnavigationview.Home.HomeAdapter;
+import ntu.nguyenkhacduyhung.bottomnavigationview.Home.HomePage;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +30,10 @@ public class HomeFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    HomeAdapter adapter;
+    ArrayList<HomePage> ls;
+    RecyclerView recyclerView;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -58,7 +69,23 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        ls = new ArrayList<HomePage>();
+        ls.add(new HomePage("boy1", "Đỗ Quang Minh", "3 phút trước", "Thả timm là trái dâu sẽ đổi màu nha, thiệt luôn", "bai1", 500, 200, 50));
+        ls.add(new HomePage("girl2", "Huỳnh Thiên An", "2 tiếng trước", "Từng ao ước có một ngôi nhà cạnh bờ biển", "bai2", 825, 125, 200));
+        ls.add(new HomePage("boy4", "Phạm Bảo Khang", "1 ngày trước", "Tự hỏi bản thân khi nào thì đến lượt mình hạnh phúc...", "bai3", 522, 225, 15));
+        ls.add(new HomePage("girl5", "Huỳnh Yến", "3 ngày trước", "Đừng nói về chúng ta của sau này bởi sau này làm gì có chúng ta.", "bai4", 1500, 500, 250));
+        ls.add(new HomePage("boy3", "Nguyễn Hưng", "15 phút trước", "Nếu cuộc đời là một cuốn sách, thì có một vài trang tôi thật sự muốn xé đi...", "bai5", 940, 100, 300));
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        RecyclerView recycler = view.findViewById(R.id.recyclerView);
+
+        recycler.setLayoutManager(new LinearLayoutManager(requireContext()));
+
+        adapter = new HomeAdapter(requireContext(), ls);
+
+        recycler.setAdapter(adapter);
+
+        return view;
     }
 }
