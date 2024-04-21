@@ -2,39 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/trangchu"
         android:icon="@drawable/home_24px"
-        android:title="Trang chủ"
-        />
+        android:title="Trang chủ" />
 
     <item
         android:id="@+id/friend"
         android:icon="@drawable/diversity_4_24px"
-        android:title="Bạn bè"
-        />
+        android:title="Bạn bè" />
 
     <item
-        android:id="@+id/video"
-        android:icon="@drawable/video_library_24px"
-        android:title="Video"
-        />
-
-    <item
-        android:id="@+id/message"
-        android:icon="@drawable/forum_24px"
-        android:title="Tin nhắn"
-        />
-
-    <item
-        android:id="notify"
+        android:id="@+id/notify"
         android:icon="@drawable/notifications_24px"
-        android:title="Thông báo"
-        />
-
-    <item
-        android:id="profile"
-        android:icon="@drawable/account_circle_24px"
-        android:title="Cá nhân"
-        />
-
+        android:title="Thông báo"/>
 </menu>
