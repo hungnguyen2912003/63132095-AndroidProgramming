@@ -6,7 +6,17 @@
   <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
 </div>
 
-<h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP THỰC HÀNH😽</h2>
+<h2 align="left">🧧TRUY CẬP NHANH SOURCES CODE BÀI TẬP ĐIỂM CỘNG🧧</h2>
+
+###
+<div>
+  <h4>Bottom Navigation View: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/BottomNavigationView/app/src">BottomNavigationView</a></h4>
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv2.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv3.png" width = "200">
+</div>
+
+<h2 align="left">😽TRUY CẬP NHANH SOURCES CODE BÀI TẬP THỰC HÀNH😽</h2>
 
 ###
 <div>
@@ -54,7 +64,7 @@
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/exam_list.png" width = "200">
 </div>
 
-<h2 align="left">🙀TRUY CẬP NHANH SOURCES CÁC VÍ DỤ BÀI HỌC🙀</h2>
+<h2 align="left">🙀TRUY CẬP NHANH SOURCES CODE CÁC VÍ DỤ BÀI HỌC🙀</h2>
 
 ###
 <div>
@@ -81,7 +91,7 @@
 </div>
 
 
-<h2 align="left">😽TRUY CẬP NHANH SOURCES BÀI TẬP TỰ LUYỆN😽</h2>
+<h2 align="left">😽TRUY CẬP NHANH SOURCES CODE BÀI TẬP TỰ LUYỆN😽</h2>
 
 ###
 
@@ -118,7 +128,7 @@
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/baikt4.png" width = "200">
 </div>
 
-<h2 align="left">💖TRUY CẬP NHANH SOURCES KIỂM TRA GIỮA KỲ 2024 💖</h2>
+<h2 align="left">💖TRUY CẬP NHANH SOURCES CODE KIỂM TRA GIỮA KỲ 2024 💖</h2>
 
 ###
 
