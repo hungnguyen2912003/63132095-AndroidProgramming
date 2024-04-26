@@ -68,6 +68,12 @@
 
 ###
 <div>
+  <h4>Navigation Drawer: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/NavigationDrawer/app/src/main">NavigationDrawer</a></h4>
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/navdrawer.png" width = "200">
+</div>
+
+###
+<div>
   <h4>Intent Ví dụ 1: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Intent_VD1_ExplicitIntents/app/src/main">ExplicitIntents</a></h4>
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd11.png" width = "200">
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vd12.png" width = "200">
