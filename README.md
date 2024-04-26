@@ -10,7 +10,7 @@
 
 ###
 <div>
-  <h4>Bottom Navigation View: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/BottomNavigationView/app/src">BottomNavigationView</a></h4>
+  <h4>Bottom Navigation View: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/BottomNavigationView/app/src/main">BottomNavigationView</a></h4>
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv2.png" width = "200">
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv3.png" width = "200">
