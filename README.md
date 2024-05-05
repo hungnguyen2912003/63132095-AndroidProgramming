@@ -71,7 +71,7 @@
 <div>
   <h4>SQLite: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/NavigationDrawer/app/src/main">Example_SQLite</a></h4>
   <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vdsqlite_db.png">
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vdsqlite.png" width = "200">
+  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/vdsqlite.png" width = "250">
 </div>
 
 <div>
