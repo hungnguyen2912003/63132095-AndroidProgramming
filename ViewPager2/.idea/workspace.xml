@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.ViewPager2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/landscape_item.xml">
+        <config>
+          <theme>@style/Theme.ViewPager2</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc07f883-8f47-41de-915c-882d706aa103" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/Cau1Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/Cau2Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/Cau3Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/Cau4Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/ProfileFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/adapter/LandScape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/java/ntu/nguyenkhacduyhung/example/adapter/LandScapeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/drawable/cruelty_free_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/drawable/flutter_dash_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/drawable/home_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/drawable/person_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/drawable/raven_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/fragment_cau1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/fragment_cau2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/fragment_cau3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/fragment_cau4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/layout/landscape_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/mipmap-hdpi/buckingham_palace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/mipmap-hdpi/eiffel_tower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/mipmap-hdpi/hanoi_flag_tower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prepare/app/src/main/res/mipmap-hdpi/nu_than_tu_do.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BottomNavigationView/app/src/androidTest/java/ntu/nguyenkhacduyhung/bottomnavigationview/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator_Random/app/src/androidTest/java/com/example/calculator_random/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cau2_MathQuiz/app/src/androidTest/java/ntu/NguyenKhacDuyHung_63132095/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cau3_IntroduceMyself/app/src/androidTest/java/ntu/NguyenKhacDuyHung_63132095/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_Hello/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_Hello/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_Hello/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_Hello/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_Hello/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_Hello/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_Hello/app/src/androidTest/java/th/part2/ex1_hello/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_Hello/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_Hello/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_Hello/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_Hello/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex2_LinearLayout/app/src/androidTest/java/th/part2/ex2_linearlayout/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex3_SimpleSumApp/app/src/androidTest/java/th/part2/ex3_simplesumapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex4_AddSubMulDiv_Onclick/app/src/androidTest/java/th/part2/ex4_addsubmuldiv_onclick/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex5_AddSubMulDiv_Anynomous/app/src/androidTest/java/th/part2/ex5_addsubmuldiv_anynomous/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex5_AddSubMulDiv_Var/app/src/androidTest/java/th/part2/ex5_addsubmuldiv_var/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex_6Cong_ListViewThemXoaSua/app/src/androidTest/java/th/part2/ex_6cong_listviewthemxoasua/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex_6_ListViewDemo/app/src/androidTest/java/th/part2/ex_6_listviewdemo/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example_SQLite/app/src/androidTest/java/ntu/nguyenkhacduyhung/example_sqlite/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GK_2020/BaiKT1/app/src/androidTest/java/com/example/baikt1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GK_2020/BaiKT2/app/src/androidTest/java/com/example/baikt2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GK_2020/BaiKT3/app/src/androidTest/java/com/example/baikt3/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GK_2020/BaiKT4/app/src/androidTest/java/com/example/baikt4/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_VD1_ExplicitIntents/app/src/androidTest/java/ntu/nguyenkhacduyhung/intent_vd1_explicitintents/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_VD2_Login/app/src/androidTest/java/ntu/nguyenkhacduyhung/intent_vd2_login/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LVNangCao/app/src/androidTest/java/th/part2/lvnangcao/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NavigationDrawer/app/src/androidTest/java/ntu/nguyenkhacduyhung/navigationdrawer/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerView/app/src/androidTest/java/com/example/recyclerview_landscape/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerView_ExamList/app/src/androidTest/java/nguyenkhacduyhung/recyclerview_examlist/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum_Quiz/app/src/androidTest/java/com/example/sum_quiz/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/nguyenkhacduyhung_63132095/viewpager2/ExampleInstrumentedTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\bocut\.android\avd\Pixel_3a_API_24.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hHF35ryeRIe0JwyyuGXzwpSEpF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/Mobile Programming/63132095-AndroidProgramming/ViewPager2/app/src/main/res/mipmap-hdpi&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Mobile Programming/63132095-AndroidProgramming/ViewPager2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mobile Programming\63132095-AndroidProgramming\ViewPager2\app\src\main\res\mipmap-hdpi" />
+      <recent name="E:\Mobile Programming\63132095-AndroidProgramming\ViewPager2\app\src\main\res\font" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ViewPager2.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc07f883-8f47-41de-915c-882d706aa103" name="Changes" comment="" />
+      <created>1717242893595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717242893595</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

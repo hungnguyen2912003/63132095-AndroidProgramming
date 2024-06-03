@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_schedule_black_36
+drawable baseline_school_black_36
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id appBarLayout
+id border2
+id examDate
+id examMessage
+id examName
+id examPic
+id examPic2
+id recyclerView
+id toolbar
+layout activity_main
+layout exam_card
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.RecyclerView_ExamList
+style Theme.RecyclerView_ExamList
+xml backup_rules
+xml data_extraction_rules
