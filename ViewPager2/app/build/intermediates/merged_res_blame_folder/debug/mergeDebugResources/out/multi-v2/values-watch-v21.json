@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "nguyenkhacduyhung_63132095.viewpager2.app-mergeDebugResources-29:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bocut\\.gradle\\caches\\transforms-4\\99af075c71f9a3650ffadafb5f4d7754\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

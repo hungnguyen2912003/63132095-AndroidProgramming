@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_raven_24px.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\raven_24px.xml"
+    },
+    {
+        "merged": "ntu.nguyenkhacduyhung.example.app-debug-32:/drawable_ntlogo.png.flat",
+        "source": "ntu.nguyenkhacduyhung.example.app-main-34:/drawable/ntlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_landscape_item.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\landscape_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_facebook.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\facebook.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_linkedin.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\linkedin.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_fragment_cau1.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\fragment_cau1.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_facebook2.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\facebook2.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_github.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\github.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_person_24px.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\person_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_instagram2.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\instagram2.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "ntu.nguyenkhacduyhung.example.app-debug-32:/drawable_public_24px.xml.flat",
+        "source": "ntu.nguyenkhacduyhung.example.app-main-34:/drawable/public_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_youtube.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\youtube.json"
+    },
+    {
+        "merged": "ntu.nguyenkhacduyhung.example.app-debug-32:/layout_fragment_profile.xml.flat",
+        "source": "ntu.nguyenkhacduyhung.example.app-main-34:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-hdpi_nu_than_tu_do.jpg.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-hdpi\\nu_than_tu_do.jpg"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_instagram.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\instagram.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\font_baloo.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\font\\baloo.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_home_24px.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\home_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-hdpi_eiffel_tower.jpg.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-hdpi\\eiffel_tower.jpg"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_cruelty_free_24px.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\cruelty_free_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-hdpi_buckingham_palace.jpg.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-hdpi\\buckingham_palace.jpg"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_twitter.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\twitter.json"
+    },
+    {
+        "merged": "ntu.nguyenkhacduyhung.example.app-debug-32:/drawable_dai_hoc_nt.jpeg.flat",
+        "source": "ntu.nguyenkhacduyhung.example.app-main-34:/drawable/dai_hoc_nt.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-hdpi_hanoi_flag_tower.jpg.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-hdpi\\hanoi_flag_tower.jpg"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_instagram3.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\instagram3.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\font_poppins_bold.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\font\\poppins_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\font_poppins.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\font\\poppins.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_playmarket.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\playmarket.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_fragment_cau3.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\fragment_cau3.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_whatsapp.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\whatsapp.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\font_poppins_medium.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\font\\poppins_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_verified.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\verified.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_avatar.png.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_flutter_dash_24px.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\flutter_dash_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\drawable_male_24px.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\drawable\\male_24px.xml"
+    },
+    {
+        "merged": "ntu.nguyenkhacduyhung.example.app-debug-32:/drawable_school_24px.xml.flat",
+        "source": "ntu.nguyenkhacduyhung.example.app-main-34:/drawable/school_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\raw_gmail.json.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\raw\\gmail.json"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\layout_fragment_cau2.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\layout\\fragment_cau2.xml"
+    },
+    {
+        "merged": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\bocut\\.gradle\\daemon\\8.7\\ntu.nguyenkhacduyhung.example.app-main-34:\\xml\\data_extraction_rules.xml"
+    }
+]
