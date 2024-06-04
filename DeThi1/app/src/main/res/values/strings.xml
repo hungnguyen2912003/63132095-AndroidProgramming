@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Example</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bio">Mình là Hưng. Chào mừng bạn đến với Trang cá nhân của mình</string>
+</resources>
