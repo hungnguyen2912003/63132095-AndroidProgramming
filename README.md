@@ -6,8 +6,6 @@
   <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
 </div>
 
-<h2 align="left">🧧TRUY CẬP NHANH SOURCES CODE BÀI TẬP ĐIỂM CỘNG🧧</h2>
-
 ###
 <div>
   <h4>Bottom Navigation View: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/BottomNavigationView/app/src/main">BottomNavigationView</a></h4>
