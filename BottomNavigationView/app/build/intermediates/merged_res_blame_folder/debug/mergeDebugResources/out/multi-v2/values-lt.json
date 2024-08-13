@@ -4,7 +4,7 @@
             "outputFile": "ntu.nguyenkhacduyhung.bottomnavigationview.app-mergeDebugResources-29:/values-lt/values-lt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bocut\\.gradle\\caches\\transforms-3\\f35f4318d1871c772a82f82aacbc3286\\transformed\\material-1.11.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\Hung Nguyen\\.gradle\\caches\\transforms-4\\85ee07c9b2e63dcdc558d915ab6ff25a\\transformed\\material-1.11.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bocut\\.gradle\\caches\\transforms-3\\465593cd9854498e3ae7ea4a506292fa\\transformed\\core-1.13.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\Hung Nguyen\\.gradle\\caches\\transforms-4\\a1c963d659feee2553e91eaa9a3281a6\\transformed\\core-1.13.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bocut\\.gradle\\caches\\transforms-3\\1fb16f805fd4cc20f415664fd2af8fa6\\transformed\\appcompat-1.6.1\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\Hung Nguyen\\.gradle\\caches\\transforms-4\\81595b47d8da61c5f825c55c4b9d3a87\\transformed\\appcompat-1.6.1\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
