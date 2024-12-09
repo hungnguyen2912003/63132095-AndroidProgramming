@@ -1,10 +1,10 @@
-#Thu Sep 12 21:35:02 ICT 2024
-base.0=E\:\\Mobile Programming\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=E\:\\Mobile Programming\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=E\:\\Mobile Programming\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=E\:\\Mobile Programming\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.4=E\:\\Mobile Programming\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.5=E\:\\Mobile Programming\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+#Sun Dec 08 14:25:16 ICT 2024
+base.0=E\:\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=E\:\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=E\:\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=E\:\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.4=E\:\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.5=E\:\\63132095-AndroidProgramming\\BottomNavigationView\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

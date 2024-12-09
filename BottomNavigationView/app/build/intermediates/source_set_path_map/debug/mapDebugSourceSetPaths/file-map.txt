@@ -1,34 +1,34 @@
-ntu.nguyenkhacduyhung.bottomnavigationview.app-coordinatorlayout-1.1.0-0 C:\Users\HungNguyen\.gradle\caches\transforms-4\3355a41176fcf18f77c6ad430691b111\transformed\coordinatorlayout-1.1.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-activity-1.9.0-1 C:\Users\HungNguyen\.gradle\caches\transforms-4\3b0b86ca1a3d6960450881778d072300\transformed\activity-1.9.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-emoji2-1.2.0-2 C:\Users\HungNguyen\.gradle\caches\transforms-4\4c838b5a6c6b9e9c7af60b6a856c87a6\transformed\emoji2-1.2.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-constraintlayout-2.1.4-3 C:\Users\HungNguyen\.gradle\caches\transforms-4\53626523e5d443386c16181db0922d56\transformed\constraintlayout-2.1.4\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-process-2.6.2-4 C:\Users\HungNguyen\.gradle\caches\transforms-4\53ad77e45e711e8a93189c60ebe53118\transformed\lifecycle-process-2.6.2\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-drawerlayout-1.1.1-5 C:\Users\HungNguyen\.gradle\caches\transforms-4\64aa136d59647609b2725b93c7b05618\transformed\drawerlayout-1.1.1\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-viewmodel-savedstate-2.6.2-6 C:\Users\HungNguyen\.gradle\caches\transforms-4\6c3473b6ed488c05d2d91f56f2418d13\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-livedata-core-2.6.2-7 C:\Users\HungNguyen\.gradle\caches\transforms-4\6c9be05c2c18dc31dafb44a0381b8930\transformed\lifecycle-livedata-core-2.6.2\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-startup-runtime-1.1.1-8 C:\Users\HungNguyen\.gradle\caches\transforms-4\7366441bec0e09b1be4880e3da71533c\transformed\startup-runtime-1.1.1\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-profileinstaller-1.3.1-9 C:\Users\HungNguyen\.gradle\caches\transforms-4\7ffd41634ecd7b64fc3f6fa64bcf6cb9\transformed\profileinstaller-1.3.1\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-core-runtime-2.2.0-10 C:\Users\HungNguyen\.gradle\caches\transforms-4\8108561bc02bed1fd478a62a9e987d3b\transformed\core-runtime-2.2.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-appcompat-1.6.1-11 C:\Users\HungNguyen\.gradle\caches\transforms-4\822f115d2535679df2d6ecda3e0535d4\transformed\appcompat-1.6.1\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-emoji2-views-helper-1.2.0-12 C:\Users\HungNguyen\.gradle\caches\transforms-4\8724c56b8306d7053c25663c8f3d81a3\transformed\emoji2-views-helper-1.2.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-livedata-2.6.2-13 C:\Users\HungNguyen\.gradle\caches\transforms-4\94f7b3c795c369830d875c8c8635800f\transformed\lifecycle-livedata-2.6.2\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-runtime-2.6.2-14 C:\Users\HungNguyen\.gradle\caches\transforms-4\9cf82141e2699e88c321820afc18b1f9\transformed\lifecycle-runtime-2.6.2\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-cardview-1.0.0-15 C:\Users\HungNguyen\.gradle\caches\transforms-4\a139b7683b7ece48009d1bd6c5210532\transformed\cardview-1.0.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-recyclerview-1.1.0-16 C:\Users\HungNguyen\.gradle\caches\transforms-4\a27c993776be55bb4a231654ebe068e6\transformed\recyclerview-1.1.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-viewmodel-2.6.2-17 C:\Users\HungNguyen\.gradle\caches\transforms-4\a380d048c2c697b364a4c28255e378b9\transformed\lifecycle-viewmodel-2.6.2\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-fragment-1.3.6-18 C:\Users\HungNguyen\.gradle\caches\transforms-4\c20ff15e603c15d5bd2f92e1b8613159\transformed\fragment-1.3.6\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-annotation-experimental-1.4.0-19 C:\Users\HungNguyen\.gradle\caches\transforms-4\c6e923402b22c869395ebfd54c118cdf\transformed\annotation-experimental-1.4.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-transition-1.2.0-20 C:\Users\HungNguyen\.gradle\caches\transforms-4\c92dddf06c2645fcd2ad50e5432e3b9d\transformed\transition-1.2.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-core-ktx-1.13.0-21 C:\Users\HungNguyen\.gradle\caches\transforms-4\cf601f88e0b59254b325f08451b5fb72\transformed\core-ktx-1.13.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-viewpager2-1.0.0-22 C:\Users\HungNguyen\.gradle\caches\transforms-4\e0f6d0b4241920eb51418fe61ec1e919\transformed\viewpager2-1.0.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-core-1.13.0-23 C:\Users\HungNguyen\.gradle\caches\transforms-4\e210659887e441932c98fefff349b45f\transformed\core-1.13.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-appcompat-resources-1.6.1-24 C:\Users\HungNguyen\.gradle\caches\transforms-4\e8b1a9461a0a27648ab0959dc5afa50d\transformed\appcompat-resources-1.6.1\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-material-1.11.0-25 C:\Users\HungNguyen\.gradle\caches\transforms-4\ed287e5bcd983d6650245ec766637a9a\transformed\material-1.11.0\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-savedstate-1.2.1-26 C:\Users\HungNguyen\.gradle\caches\transforms-4\ff3872fdd12c2187c9e8662eff69cdc3\transformed\savedstate-1.2.1\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-pngs-27 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\build\generated\res\pngs\debug
-ntu.nguyenkhacduyhung.bottomnavigationview.app-resValues-28 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\build\generated\res\resValues\debug
-ntu.nguyenkhacduyhung.bottomnavigationview.app-packageDebugResources-29 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ntu.nguyenkhacduyhung.bottomnavigationview.app-packageDebugResources-30 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ntu.nguyenkhacduyhung.bottomnavigationview.app-debug-31 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\build\intermediates\merged_res\debug\mergeDebugResources
-ntu.nguyenkhacduyhung.bottomnavigationview.app-debug-32 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\src\debug\res
-ntu.nguyenkhacduyhung.bottomnavigationview.app-main-33 E:\Mobile Programming\63132095-AndroidProgramming\BottomNavigationView\app\src\main\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-startup-runtime-1.1.1-0 C:\Users\bocut\.gradle\caches\8.9\transforms\021ce788a73faad753acc84348123d44\transformed\startup-runtime-1.1.1\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-core-runtime-2.2.0-1 C:\Users\bocut\.gradle\caches\8.9\transforms\0bb9705e753b10e8eb46b5e0ed2bf0ac\transformed\core-runtime-2.2.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-annotation-experimental-1.4.0-2 C:\Users\bocut\.gradle\caches\8.9\transforms\196ed6d5b3ac11f785933d3ea6115854\transformed\annotation-experimental-1.4.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-viewmodel-2.6.2-3 C:\Users\bocut\.gradle\caches\8.9\transforms\35dfef6f6a2801b775f676728da7355f\transformed\lifecycle-viewmodel-2.6.2\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-constraintlayout-2.1.4-4 C:\Users\bocut\.gradle\caches\8.9\transforms\3bafa98d1af2f3d97e5cd57abb671f36\transformed\constraintlayout-2.1.4\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-runtime-2.6.2-5 C:\Users\bocut\.gradle\caches\8.9\transforms\56f5e75103971fe7c9705886a044765b\transformed\lifecycle-runtime-2.6.2\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-core-ktx-1.13.0-6 C:\Users\bocut\.gradle\caches\8.9\transforms\5991703682fad0c258b484ada845cbd6\transformed\core-ktx-1.13.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-coordinatorlayout-1.1.0-7 C:\Users\bocut\.gradle\caches\8.9\transforms\5b30d3369edd901f4063637e3f8a7562\transformed\coordinatorlayout-1.1.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-cardview-1.0.0-8 C:\Users\bocut\.gradle\caches\8.9\transforms\731bd7deaae071d510f0ba3e4793654c\transformed\cardview-1.0.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-emoji2-1.2.0-9 C:\Users\bocut\.gradle\caches\8.9\transforms\739dfa0c0dddc1d35e37464819167e75\transformed\emoji2-1.2.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-profileinstaller-1.3.1-10 C:\Users\bocut\.gradle\caches\8.9\transforms\806558e64b89b68af8ef035bf35565c1\transformed\profileinstaller-1.3.1\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-material-1.11.0-11 C:\Users\bocut\.gradle\caches\8.9\transforms\880ec707bd26e059f9b6c5e9cab4f5da\transformed\material-1.11.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-fragment-1.3.6-12 C:\Users\bocut\.gradle\caches\8.9\transforms\940b3fd8b5ac1ca01f003e555b26630c\transformed\fragment-1.3.6\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-recyclerview-1.1.0-13 C:\Users\bocut\.gradle\caches\8.9\transforms\999de97e726480bd1d53ef1a93f8b020\transformed\recyclerview-1.1.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-core-1.13.0-14 C:\Users\bocut\.gradle\caches\8.9\transforms\9c8671a6e6bf7e75c55a16e6e675cc05\transformed\core-1.13.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-drawerlayout-1.1.1-15 C:\Users\bocut\.gradle\caches\8.9\transforms\a3b06a0cdccd1f218888ae96f000937e\transformed\drawerlayout-1.1.1\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-appcompat-1.6.1-16 C:\Users\bocut\.gradle\caches\8.9\transforms\ac63531ac1216fc51c4e5d899f522d7a\transformed\appcompat-1.6.1\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-process-2.6.2-17 C:\Users\bocut\.gradle\caches\8.9\transforms\acab1c70e327e62099342345916b6936\transformed\lifecycle-process-2.6.2\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-activity-1.9.0-18 C:\Users\bocut\.gradle\caches\8.9\transforms\ae1f681f0da0ff5629c2f8acd9d2d90d\transformed\activity-1.9.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-appcompat-resources-1.6.1-19 C:\Users\bocut\.gradle\caches\8.9\transforms\ae40de7060451f56cb7a9b40d366c58e\transformed\appcompat-resources-1.6.1\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-emoji2-views-helper-1.2.0-20 C:\Users\bocut\.gradle\caches\8.9\transforms\aec645dafbc0c162c7145080f93228a3\transformed\emoji2-views-helper-1.2.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-savedstate-1.2.1-21 C:\Users\bocut\.gradle\caches\8.9\transforms\b11c714d909b34bc0ce632c64a1fe54e\transformed\savedstate-1.2.1\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-viewpager2-1.0.0-22 C:\Users\bocut\.gradle\caches\8.9\transforms\b2db29e1fae0d540b3dfee2a67941447\transformed\viewpager2-1.0.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-viewmodel-savedstate-2.6.2-23 C:\Users\bocut\.gradle\caches\8.9\transforms\c4d2aa29b97bf8c7ef7db8ebaccae97a\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-livedata-2.6.2-24 C:\Users\bocut\.gradle\caches\8.9\transforms\e9ff8f7a75e4f56ab41e5102085047f5\transformed\lifecycle-livedata-2.6.2\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-lifecycle-livedata-core-2.6.2-25 C:\Users\bocut\.gradle\caches\8.9\transforms\ebb014ce24c862d47572ff8d8df8d52c\transformed\lifecycle-livedata-core-2.6.2\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-transition-1.2.0-26 C:\Users\bocut\.gradle\caches\8.9\transforms\f357bc9b07d55c472d27dbd98da2ec56\transformed\transition-1.2.0\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-pngs-27 E:\63132095-AndroidProgramming\BottomNavigationView\app\build\generated\res\pngs\debug
+ntu.nguyenkhacduyhung.bottomnavigationview.app-resValues-28 E:\63132095-AndroidProgramming\BottomNavigationView\app\build\generated\res\resValues\debug
+ntu.nguyenkhacduyhung.bottomnavigationview.app-packageDebugResources-29 E:\63132095-AndroidProgramming\BottomNavigationView\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ntu.nguyenkhacduyhung.bottomnavigationview.app-packageDebugResources-30 E:\63132095-AndroidProgramming\BottomNavigationView\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ntu.nguyenkhacduyhung.bottomnavigationview.app-debug-31 E:\63132095-AndroidProgramming\BottomNavigationView\app\build\intermediates\merged_res\debug\mergeDebugResources
+ntu.nguyenkhacduyhung.bottomnavigationview.app-debug-32 E:\63132095-AndroidProgramming\BottomNavigationView\app\src\debug\res
+ntu.nguyenkhacduyhung.bottomnavigationview.app-main-33 E:\63132095-AndroidProgramming\BottomNavigationView\app\src\main\res
